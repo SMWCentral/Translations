@@ -203,7 +203,7 @@ Finally, you can add a key named `list` if you want the field to have a differen
 Of course, any section field can use any combination of these features.
 
 ## Support
-Feel free to ask [Telinc1](https://smwc.me/u/15661) if you have any questions regarding the schemes.
+Feel free to ask [Telinc1](https://smwc.me/u/15661) if you have any questions.
 
 ## Version
-The included translation files are split from commit `cf41828` of the SMW Central source code.
+The included translation files are split from commit `1a370de` of the SMW Central source code.

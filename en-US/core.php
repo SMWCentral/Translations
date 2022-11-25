@@ -49,6 +49,7 @@ return [
 			'smwasm' => 'SMW ASM Manager',
 			'sm64' => 'SM64 Manager',
 			'yi' => 'Yoshi\'s Island Manager',
+			'documents' => 'Documents Manager'
 		],
 		'moderator' => [
 			'forum' => 'Forum Moderator',
@@ -60,7 +61,8 @@ return [
 			'smwmusic' => 'SMW Music Moderator',
 			'smwasm' => 'SMW ASM Moderator',
 			'sm64' => 'SM64 Moderator',
-			'yi' => 'Yoshi\'s Island Moderator'
+			'yi' => 'Yoshi\'s Island Moderator',
+			'documents' => 'Documents Moderator'
 		],
 		'pr' => 'Public Relations',
 		'helper' => [
@@ -71,7 +73,8 @@ return [
 			'smwmusic' => 'SMW Music Helper',
 			'smwasm' => 'SMW ASM Helper',
 			'sm64' => 'SM64 Helper',
-			'yi' => 'Yoshi\'s Island Helper'
+			'yi' => 'Yoshi\'s Island Helper',
+			'documents' => 'Documents Helper'
 		],
 		'system' => 'Human Resources',
 		'former' => [

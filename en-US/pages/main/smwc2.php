@@ -32,8 +32,10 @@ return [
 		'events_on' => 'Events on {date}:',
 		'all_events' => 'All events',
 		'separator' => ' - ',
+		'period' => '{from} – {to}', // U+2013 (EN DASH)
 		'birthdays' => 'Birthday list',
-		'wip' => 'SMW Central doesn\'t have a calendar yet.'
+		'empty_today' => 'There are no events today.',
+		'empty_on' => 'There are no events on this day.'
 	],
 	'submission' => [
 		'tools' => 'Tool',
