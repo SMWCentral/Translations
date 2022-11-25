@@ -92,6 +92,7 @@ return [
 		'privacy_policy' => 'Privacy Policy',
 		'staff_comment' => 'Provide feedback to the staff',
 		'affiliates' => 'Affiliates (Link to us)',
+		'oss' => 'Open Source',
 		'queries' => 'Queries: ~ {stats}{count}{/stats}',
 		'generate_sql_report' => 'Generate SQL Report',
 		'sql_report' => 'SQL Report'
