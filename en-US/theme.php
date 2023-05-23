@@ -24,7 +24,7 @@ return [
 		]
 	],
 	'smwc2' => [
-		'name' => '[Beta] SMWC2',
+		'name' => 'SMWC2',
 		'options' => [
 			'scheme' => [
 				'title' => 'Scheme',
@@ -32,7 +32,8 @@ return [
 					'default' => 'Default',
 					'original' => 'Rust',
 					'classic' => '2006 Nostalgia',
-					'darkblue' => 'Dark Blue'
+					'darkblue' => 'Dark Blue',
+					'c3w2023' => "\u{200C}[C3] Mario Party"
 				]
 			]
 		]
