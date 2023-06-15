@@ -33,6 +33,7 @@ return [
 					'original' => 'Rust',
 					'classic' => '2006 Nostalgia',
 					'darkblue' => 'Dark Blue',
+					'ambiance' => 'Ambiance',
 					'c3w2023' => "\u{200C}[C3] Mario Party"
 				]
 			]

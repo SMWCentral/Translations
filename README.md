@@ -206,4 +206,4 @@ Of course, any section field can use any combination of these features.
 Feel free to ask [Telinc1](https://smwc.me/u/15661) if you have any questions.
 
 ## Version
-The included translation files are split from commit `48aac53` of the SMW Central source code.
+The included translation files are split from commit `69bc522` of the SMW Central source code.
