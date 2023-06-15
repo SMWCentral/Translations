@@ -4,8 +4,8 @@ return [
 	'title' => [
 		'inbox' => 'Messages privés',
 		'sentbox' => 'Messages envoyés',
-		'inbox_for' => 'Messages privés pour {username}',
-		'sentbox_for' => 'Messages envoyés pour {username}',
+		'inbox_for' => 'Messages privés de {username}',
+		'sentbox_for' => 'Messages envoyés de {username}',
 		'read' => '{subject} - Messages privés',
 		'compose' => 'Écrire un message',
 		'delete' => 'Confirmer la suppression'
@@ -24,7 +24,7 @@ return [
 		'write' => 'Écrire un message privé',
 		'search' => [
 			'title' => 'Rechercher',
-			'too_many' => 'Trop d\'utilisateurs trouvés; il se peut que certains résultats ont été omis.',
+			'too_many' => 'Trop d\'utilisateurs ont été trouvés; il se peut que certains résultats soient omis.',
 			'field' => 'Sujet ou nom d\'utilisateur:',
 			'submit' => 'Rechercher'
 		],
@@ -40,8 +40,8 @@ return [
 	],
 	'confirm_read' => [
 		'title' => 'Confirmer la lecture',
-		'user' => "Vous vous apprêtez à lire les messages privés de {bold}{username}{/bold}. Tous les membres du personnel pourront voir cet action.",
-		'pm' => 'Vous vous apprêtez à lire un message privé de {bold}{sender}{/bold} à {bold}{recipient}{/bold}. Tous les membres du personnel pourront voir cet action.',
+		'user' => "Vous vous apprêtez à lire les messages privés de {bold}{username}{/bold}. Tous les membres du personnel pourront voir cette action.",
+		'pm' => 'Vous vous apprêtez à lire un message privé de {bold}{sender}{/bold} à {bold}{recipient}{/bold}. Tous les membres du personnel pourront voir cette action.',
 		'reason' => 'Raison: ',
 		'submit' => 'Confirmer'
 	],
@@ -67,7 +67,9 @@ return [
 		'recipient' => [
 			'title' => 'Destinataire', // required, string, not_found (non-standard), banned (non-standard)
 			'not_found' => 'Le destinataire n\'a pas été trouvé.',
-			'banned' => 'Les utilisateurs bannis peuvent seulement envoyer des messages privés aux membres du personnel.'
+			'banned_all' => 'Les utilisateurs bannis ne peuvent pas envoyer des messages privés.',
+			'banned_staff' => 'Les utilisateurs bannis peuvent seulement envoyer des messages privés aux membres du personnel.',
+			'rate' => 'Vous devez attendre avant de pouvoir envoyer un autre message privé.'
 		],
 		'subject' => 'sujet', // required, string, between.string
 		'text' => 'message', // required, string, between.string

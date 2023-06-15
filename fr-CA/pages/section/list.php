@@ -8,7 +8,7 @@ return [
 	'menu' => [
 		'count' => '{stats}{count}{/stats} soumissions trouvées. {stats}{start}{/stats}–{stats}{end}{/stats} affichées.', // U+2013 (EN DASH)
 		'view' => 'Voir: {moderated} | {waiting}',
-		'moderated' => 'modérées',
+		'moderated' => 'modérés',
 		'waiting' => '[0] en attente|[*,*] en attente ({count})',
 		'delete_selected' => 'Supprimer les sélectionnées',
 		'reject_selected' => 'Rejeter les sélectionnées',
@@ -25,8 +25,8 @@ return [
 			'tools' => 'Soumettre un outil',
 			'documents' => 'Soumettre un document',
 			'smwmusic' => 'Soumettre de la musique',
-			'sramdatabase' => 'Soumettre un SRAM',
-			'brrsamples' => 'Soumettre un échantillon',
+			'sramdatabase' => 'Soumettre un fichier SRAM',
+			'brrsamples' => 'Soumettre un échantillon BRR',
 			'yipatches' => 'Soumettre un patch',
 			'uberasm' => 'Soumettre du UberASM',
 			'yimusic' => 'Soumettre de la musique',
@@ -36,7 +36,8 @@ return [
 	],
 	'filter' => [
 		'title' => 'Filtrer',
-		'submit' => 'Filtrer'
+		'submit' => 'Filtrer',
+		'reset' => 'Effacer'
 	],
 	'view' => [
 		'line' => 'Voir en tant que: {list} | {gallery}',
@@ -47,7 +48,7 @@ return [
 		'name' => 'Nom',
 		'date' => 'Date',
 		'authors' => 'Auteurs',
-		'rating' => 'Note',
+		'rating' => 'Cote',
 		'filesize' => 'Taille',
 		'downloads' => 'Télécharger'
 	],
@@ -59,7 +60,7 @@ return [
 		'field' => [
 			'name' => 'nom',
 			'date' => 'date',
-			'rating' => 'note',
+			'rating' => 'cote',
 			'filesize' => 'taille',
 			'downloads' => 'téléchargements'
 		]
@@ -74,6 +75,7 @@ return [
 	],
 	'gallery' => [
 		'added' => 'Ajouté le {datetime}',
-		'submitted' => 'Soumis le {datetime} par {username}'
+		'submitted' => 'Soumis le {datetime} par {username}',
+		'authors' => 'Par {authors}'
 	]
 ];

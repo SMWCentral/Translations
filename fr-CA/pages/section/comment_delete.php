@@ -2,10 +2,9 @@
 
 return [
 	'title' => 'Suppression de commentaire',
-	'text' => 'Supprimer ce commentaire?',
+	'text' => '[0] Supprimer ce commentaire?|[1] Supprimer ce commentaire et ses {stats}1{/stats} réponses?|[*,*] Supprimer ce commentaire et ses {stats}{count}{/stats} réponses?',
 	'confirm' => 'Confirmer',
 	'cancel' => 'Annuler',
-	'avatar' => 'Photo',
 	'not_found' => [
 		'title' => 'Erreur',
 		'message' => 'Commentaire non trouvé.'

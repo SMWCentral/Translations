@@ -2,16 +2,14 @@
 
 return [
 	'user_bar' => [
-		'username' => 'Nom d\'utilisateur',
-		'password' => 'Mot de passe',
 		'login' => 'Connexion',
-		'register' => 'Créer un compte',
+		'register' => 'S\'inscrire',
 		'profile' => 'Profil',
 		'files' => 'Mes fichiers',
 		'editprofile' => 'Modifier mon profil',
 		'logout' => 'Déconnexion',
 		'pm' => '[0] MP|[*,*] MP {new}{count} nouv.{/new}',
-		'notifications' => '[0] Alertes|[*,*] Alertes {new}{count} nouv.{/new}',
+		'notifications' => '[0] Notifications|[*,*] Notifications {new}{count} nouv.{/new}',
 		'staffpanel' => 'Tableau de bord du personnel',
 		'search' => 'Rechercher…', // U+2026 (HORIZONTAL ELLIPSIS)
 		'go' => 'Go',
@@ -43,13 +41,14 @@ return [
 			'brrsamples' => 'Échantillons BRR',
 			'blocks' => 'Blocs',
 			'sprites' => 'Sprites',
+			'tweaks' => 'Ajustements',
 			'patches' => 'Patchs',
 			'uberasm' => 'UberASM',
 			'online_tools' => 'Outils en ligne',
 			'documents' => 'Documents',
 			'rom_map' => 'Plan du ROM',
 			'ram_map' => 'Plan du RAM',
-			'hijack_map' => 'Plan des Hijacks'
+			'hijack_map' => 'Plan des hijacks'
 		],
 		'yi' => [
 			'name' => 'SMW2: Yoshi\'s Island',
@@ -79,12 +78,13 @@ return [
 			'rom_map' => 'Plan du ROM',
 			'ram_map' => 'Plan du RAM'
 		],
-		'unread' => "[1] \u{A0}- {new}new{/new}|[*,*] \u{A0}- {new}{count} new{/new}", // \u{A0} is U+00A0 (NO-BREAK SPACE)
+		'unread' => "[1] \u{A0}- {new}nouv.{/new}|[*,*] \u{A0}- {new}{count} nouv.{/new}", // \u{A0} is U+00A0 (NO-BREAK SPACE)
 	],
 	'header' => [
 		'users' => 'Utilisateurs: {stats}{count}{/stats}',
 		'active_users' => '({count} actifs)',
-		'latest_user' => 'Dernier utilisateur: {user}'
+		'latest_user' => 'Dernier utilisateur: {user}',
+		'latest_user_hidden' => 'Dernier utilisateur invisible'
 	],
 	'footer' => [
 		'page_views' => 'Visionnements: {stats}{count}{/stats}',
@@ -98,11 +98,11 @@ return [
 	],
 	'online_user_list' => [
 		'online' => '{stats}{count}{/stats} utilisateur en ligne:|{stats}{count}{/stats} utilisateurs en ligne:',
-		'hidden' => '{stats}{count}{/stats} utilisateur en ligne (Cachés: {stats}{hidden}{/stats}):|{stats}{count}{/stats} utilisateurs en ligne (Cachés: {stats}{hidden}{/stats}):', //putting "cachés" after the number would make it conditional on plurals
+		'hidden' => '{stats}{count}{/stats} utilisateur en ligne (invisibles: {stats}{hidden}{/stats}):|{stats}{count}{/stats} utilisateurs en ligne (invisibles: {stats}{hidden}{/stats}):', //putting "invisibles" after the number would make it conditional on plurals
 		'user_separator' => ', ',
-		'guests' => 'Invités: {stats}{count}{/stats}',
+		'guests' => 'Visiteurs: {stats}{count}{/stats}',
 		'stat_separator' => ' - ',
-		'bots' => 'Robots: {stats}{count}{/stats}'
+		'bots' => 'Bots: {stats}{count}{/stats}'
 	],
 	'pagination' => [
 		'title' => 'Pages:',
@@ -136,18 +136,18 @@ return [
 			'from' => 'Localisation: {stats}{location}{/stats}',
 			'pronouns' => 'Pronoms: {stats}{pronouns}{/stats}',
 			'last_seen' => 'Dernière activité: {stats}{time}{/stats}',
-			'last_warning' => 'Dernier avertissement: {link}{time}{/link}'
+			'last_warning' => 'Dernière infraction: {link}{time}{/link}'
 		]
 	],
 	'qp_menu' => [
-		'title' => 'Punishment',
-		'notice' => 'Notice',
-		'warn' => 'Warn',
-		'ban' => 'Temp ban',
-		'forumBan' => 'Forum ban',
-		'sectionBan' => 'Section ban',
-		'disable' => 'Disable',
-		'nuke' => 'Nuke profile fields',
+		'title' => 'Punition',
+		'notice' => 'Avis',
+		'warn' => 'Avertissement',
+		'ban' => 'Bannissement temporaire',
+		'forumBan' => 'Bannissement de forum',
+		'sectionBan' => 'Bannissement de section',
+		'disable' => 'Désactiver',
+		'nuke' => 'Éliminer des champs de profil',
 		'kamikaze' => 'Kamikaze'
 	],
 	'secondary_menu' => [

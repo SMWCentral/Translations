@@ -3,10 +3,11 @@
 return [
 	'title' => 'SMW Central - Votre resource primaire pour le hacking Super Mario World',
 	'intro' => [
-		'title' => 'Bienvenue à SMW Central!',
+		'title' => 'Bienvenue sur SMW Central!',
 		'paragraph' => 'SMW Central est la plus grande communauté de ROM hacking sur Internet et le point de rassemblement pour toutes les ressources dont vous avez besoin pour créer votre propre ROM hack. Nous offrons une grande sélection de hacks complétés aussi, prêts à jouer! Traditionnellement, SMW Central se concentre sur le hacking de {em}Super Mario World{/em}, mais au fil des années, nous avons ramassé plein de ressources et de hacks pour d\'autres jeux.',
 		'register' => 'Notre communauté ne cesse de grandir — {link}créez un compte{/link} et rejoignez-la!',
-		'beginners' => 'Besoin d\'aide pour jouer les hacks que nous offrons? Vous n\'êtes pas sûr c\'est quoi le « ROM hacking »? Notre {link}Guide pour débutants{/link} vous montrera la route.' // U+00AB left-pointing double angle quotation mark     U+00BB right-pointing double angle quotation mark
+		'beginners_title' => 'Introduction: Comment créer et jouer à des hacks',
+		'beginners' => 'Besoin d\'aide pour jouer aux hacks que nous offrons? Vous n\'êtes pas sûr c\'est quoi le « ROM hacking »? Notre {link}Guide pour débutants{/link} vous montrera la route.' // U+00AB left-pointing double angle quotation mark     U+00BB right-pointing double angle quotation mark
 	],
 	'files' => [
 		'title' => [

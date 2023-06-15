@@ -224,7 +224,7 @@ return [
 			'staff' => [
 				'general' => 'Ancien membre du personnel légendaire',
 				'male' => 'Ancien membre du personnel légendaire',
-				'female' => 'Ancien membre du personnel légendaire' //french is stupid and the word "membre" is exclusively masculin, hence why it's the same for all three
+				'female' => 'Ancien membre du personnel légendaire'
 			]
 		],
 		'time_banned' => [
@@ -238,9 +238,9 @@ return [
 				'female' => 'Bannie'
 			],
 		'disabled' => [
-				'general' => 'Compte bloqué',
-				'male' => 'Compte bloqué',
-				'female' => 'Compte bloqué'
+				'general' => 'Compte désactivé',
+				'male' => 'Compte désactivé',
+				'female' => 'Compte désactivé'
 			]
 	],
 		'post' => [
@@ -251,6 +251,10 @@ return [
 		'delete' => 'Supprimer',
 		'ip' => 'Recherche d\'IP',
 		'warn' => 'Avertir'
+	],
+	'recent_notice' => [
+		'title' => 'Avis récent',
+		'message' => 'Vous avez récemment reçu un avis de la part d\'un modérateur. Vous y serez redirigé.'
 	],
 	'recent_warning' => [
 		'title' => 'Avertissement récent',

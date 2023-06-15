@@ -10,7 +10,7 @@ return [
 		'message' => 'Le sondage a été supprimé avec succès.'
 	],
 	'not_found' => [
-		'title' => 'Erreuur',
+		'title' => 'Erreur',
 		'message' => 'Le sondage précisé n\'existe pas, ou vous n\'avez pas la permission de le supprimer.'
 	]
 ];

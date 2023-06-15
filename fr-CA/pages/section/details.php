@@ -24,6 +24,7 @@ return [
 	'content' => [
 		'warning' => 'Ce fichier contient {warnings}. Pour public averti.',
 		'suggestive_dialogue' => 'du dialogue suggestif',
+		'crude_content' => 'du contenu vulgaire',
 		'crude_language' => 'du langage vulgaire',
 		'sexual_content' => 'du contenu sexuel',
 		'violence' => 'de la violence',
@@ -74,14 +75,30 @@ return [
 		'view_all' => 'Tous afficher'
 	],
 	'comments' => [
-		'title' => '[0] commentaires|[*,*]commentaires ({count})',
+		'title' => '[0] Commentaires|[*,*]Commentaires ({count})',
 		'form' => [
-			'textarea' => 'Publier un commentaire',
-			'submit' => 'Publier'
+			'title' => 'Publier un commentaire',
+			'textarea' => 'Commentaire',
+			'replying' => 'En réponse à to {author}: {text}',
+			'unreply' => 'annuler la réponse',
+			'submit' => 'Publier',
+			'preview' => 'Aperçu'
 		],
-		'avatar' => 'Photo',
+		'option' => [
+			'filter' => 'Afficher les commentaires liés à:',
+			'all' => 'Toutes les versions',
+			'current' => 'Seulement cette version'
+		],
+		'badge' => [
+			'author' => 'Auteur',
+			'pinned' => 'Épinglé',
+			'old' => 'Provenant d\'une ancienne version: {link}{name}{/link}'
+		],
 		'link' => 'Lien',
+		'reply' => 'Répondre',
 		'quote' => 'Citer',
+		'pin' => 'Épingler',
+		'unpin' => 'Désépingler',
 		'edit' => 'Modifier',
 		'delete' => 'Supprimer'
 	],

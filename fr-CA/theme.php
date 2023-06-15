@@ -30,7 +30,10 @@ return [
 				'title' => 'Modèle',
 				'values' => [
 					'default' => 'Défaut',
-					'original' => 'Rouille'
+					'original' => 'Rouille',
+					'classic' => 'Nostalgie 2006',
+					'darkblue' => 'Bleu foncé',
+					'c3w2023' => "\u{200C}[C3] Mario Party"
 				]
 			]
 		]

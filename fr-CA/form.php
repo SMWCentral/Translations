@@ -6,7 +6,7 @@ return [					//i'm not sure where these strings appear on the site, so I couldn'
 	],
 	'validation' => [
 		'required' => 'Le {title} est requis.',
-		'string' => 'Le {title} doit être une chaîne de caractères.', //considering changing "chaîne de caractères" (Official way to way "string" in French to "texte alphanumérique" (alphanumeric text) or something of the sort because I've never heard anyone say the former.
+		'string' => 'Le {title} doit être une chaîne de caractères (string).', //considering changing "chaîne de caractères" (Official way to way "string" in French to "texte alphanumérique" (alphanumeric text) or something of the sort because I've never heard anyone say the former.
 		'integer' => 'Le {title} doit être un nombre.',
 		'float' => 'Le {title} doit être un nombre.',
 		'array' => 'Le {title} contient des données non valides.',

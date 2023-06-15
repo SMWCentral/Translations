@@ -26,8 +26,8 @@ return [
 		'link' => 'Lien'
 	],
 	'mark_all_read' => 'Marquer tous les forums comme lus',
-	'watched_threads' => 'Fils sous surveillance',
-	'viewing_tagged' => 'Actuellement, seuls les fils avec l\'étiquette {tag} sont affichés.',
+	'watched_threads' => 'Fils surveillés',
+	'viewing_tagged' => 'Seuls les fils avec l\'étiquette {tag} sont présentement affichés.',
 	'breadcrumbs' => [
 		'index' => 'Index des forums',
 		'tagged' => 'Forums étiquettés'
@@ -65,9 +65,9 @@ return [
 		'first_unread' => 'Aller à la première publication non-lue',
 		'view_latest' => 'Aller à la dernière publication',
 		'description' => 'Publié par {user} le {date}',
-		'moved' => '[0] → Déplacé vers {forum} (ceci disparaîtra d\'ici bientôt)|[1]→ Déplacé vers {forum} (ceci disparaîtra d\'ici dans une journée)|[*,*]→ Déplacé vers {forum} (ceci disparaîtra d\'ici dans {count} jours)', // U+2192 (RIGHTWARDS ARROW)
+		'moved' => '[0] → Déplacé vers {forum} (ceci disparaîtra d\'ici bientôt)|[1]→ Déplacé vers {forum} (ceci disparaîtra d\'ici dans un jour)|[*,*]→ Déplacé vers {forum} (ceci disparaîtra d\'ici dans {count} jours)', // U+2192 (RIGHTWARDS ARROW)
 		'watching' => 'Vous surveillez ce fil',
-		'nsfw' => 'Contenu inapproprié aux mineurs',
+		'nsfw' => 'Contenu inapproprié pour les mineurs',
 		'page' => 'Page',
 		'none' => 'Il n\'y a aucun fil dans ce forum.'
 	],

@@ -3,7 +3,7 @@
 return [
 	'global' => [
 		'title' => [
-			'default' => 'Plan de la mémoire',
+			'default' => 'Plan-mémoire',
 			'success' => 'Succès',
 			'error' => 'Erreur'
 		]
@@ -19,7 +19,7 @@ return [
         ]
     ],
 	'map' => [
-		'title' => 'Plan de la mémoire de {Game}',
+		'title' => 'Plan-mémoire de {Game}',
         'empty' => 'Aucune addresse ne correspond à vos critères de recherche.',
         'error' => 'Erreur'
 	]

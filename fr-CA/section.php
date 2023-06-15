@@ -50,9 +50,11 @@ return [
 					'normal' => 'Standard: Normal',
 					'hard' => 'Standard: Difficile',
 					'very_hard' => 'Standard: Très difficile',
-					'kaizo_light' => 'Kaizo: Léger',
-					'kaizo_hard' => 'Kaizo: Difficile',
-					'pit' => 'Kaizo: Pit',
+					'kaizo_beginner' => 'Kaizo: Débutant',
+					'kaizo_light' => 'Kaizo: Intermédiaire',
+					'kaizo_expert' => 'Kaizo: Expert',
+					'kaizo_hard' => 'Avec outils: Kaizo', //not sure if outils is the right word, or if it should just be TAS: Kaizo
+					'pit' => 'Avec outils: Pit',
 					'troll' => 'Divers: Troll',
 				]
 			],
@@ -202,6 +204,51 @@ return [
 					'font' => 'Police',
 					'miscellaneous' => 'Divers',
 					'graphics_hack' => 'Hack de graphismes'
+				]
+			],
+			'slots' => [
+				'name' => 'Champs utilisés', //no idea how to translate "slot" in this case, I don't think there really is a direct equivalent
+				'list' => 'Champs',
+				'options' => [
+					'bg1' => 'BG1',
+					'bg2' => 'BG2',
+					'bg3' => 'BG3',
+					'fg1' => 'FG1',
+					'fg2' => 'FG2',
+					'fg3' => 'FG3',
+					'fg4' => 'FG4',
+					'fg5' => 'FG5',
+					'fg6' => 'FG6',
+					'sp1' => 'SP1',
+					'sp2' => 'SP2',
+					'sp3' => 'SP3',
+					'sp4' => 'SP4',
+					'lg1' => 'LG1',
+					'lg2' => 'LG2',
+					'lg3' => 'LG3',
+					'lg4' => 'LG4',
+					'an2' => 'AN2'
+				]
+			],
+			'palettes' => [
+				'name' => 'Rangs de palette utilisés',
+				'options' => [
+					'p0' => '0',
+					'p1' => '1',
+					'p2' => '2',
+					'p3' => '3',
+					'p4' => '4',
+					'p5' => '5',
+					'p6' => '6',
+					'p7' => '7',
+					'p8' => '8',
+					'p9' => '9',
+					'pA' => 'A',
+					'pB' => 'B',
+					'pC' => 'C',
+					'pD' => 'D',
+					'pE' => 'E',
+					'pF' => 'F'
 				]
 			],
 			'description' => 'Description'
@@ -398,7 +445,7 @@ return [
 			],
 			'duration' => [
 				'name' => 'Durée',
-				'description' => 'Durée du morceau de musique lors d\'une boucle. Obligatoire seulement pour des soumissions de type « Chanson » et « Divers »; sinon, laissez la case vide.'
+				'description' => 'Durée d\'une boucle du morceau de musique. Obligatoire seulement pour des soumissions de type « Chanson » et « Divers ». Sinon, laissez la case vide.'
 			],
 			'featured' => [
 				'name' => 'En vedette',
@@ -509,7 +556,7 @@ return [
 			],
 			'duration' => [
 				'name' => 'Durée',
-				'description' => 'Durée du morceau de musique lors d\'une boucle. Obligatoire seulement pour des soumissions de type « Chanson » et « Divers »; sinon, laissez la case vide.'
+				'description' => 'Durée d\'une boucle du morceau de musique. Obligatoire seulement pour des soumissions de type « Chanson » et « Divers »; sinon, laissez la case vide.'
 			],
 			'featured' => [
 				'name' => 'En vedette',
@@ -561,6 +608,7 @@ return [
 			'loop' => 'Activer/désactiver la boucle',
 			'restart' => 'Recommencer',
 			'stop' => 'Arrêter',
+			'skip' => 'Sauter',
 			'title' => 'Nom de la chanson',
 			'volume' => 'Volume',
 			'move' => 'Déplacer le lecteur'

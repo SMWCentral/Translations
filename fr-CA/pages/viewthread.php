@@ -32,13 +32,13 @@ return [
 		'closes' => 'Le sondage ferme dans {time}.',
 		'cast_vote' => 'Voter',
 		'change_vote' => 'Changer de vote',
-		'closed' => 'Le sondage a fermé le {time}.',
+		'closed' => 'Le sondage s\'est fermé le {time}.',
 		'thread_closed' => 'Fil fermé.',
 		'cannot_vote' => 'Impossible de voter.'
 	],
 	'quick_reply' => [
 		'title' => 'Réponse rapide',
-		'text' => 'Publier le contenu',
+		'text' => 'Contenu de la publication',
 		'submit' => 'Soumettre la réponse',
 		'full' => 'Utiliser l\'éditeur complet'
 	],
