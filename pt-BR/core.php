@@ -10,6 +10,7 @@ return [
 		'en-US' => 'English',
 		'fr-CA' => 'Français',
 		'pt-BR' => 'Português',
+		'ja-JP' => '日本語',
 	],
 	'time' => [
 		'now' => 'agora',

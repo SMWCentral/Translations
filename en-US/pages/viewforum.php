@@ -22,7 +22,7 @@ return [
 		'mark_read' => 'Mark Forum Read',
 		'mark_tagged_read' => 'Mark Tagged Threads Read',
 		'new_thread' => 'New Thread',
-		'new_tagged_thread' => 'New Thread with Tag',
+		'new_tagged_thread' => 'New Tagged Thread',
 		'link' => 'Link',
 	],
 	'mark_all_read' => 'Mark all forums read',
@@ -89,7 +89,7 @@ return [
 	],
 	'read_tag_success' => [
 		'title' => 'Success',
-		'message' => 'The tag {bold}{tag}{/bold} has been marked read.',
+		'message' => 'All threads tagged {bold}{tag}{/bold} have been marked read.',
 	],
 	'read_tag_error' => [
 		'title' => 'Error',

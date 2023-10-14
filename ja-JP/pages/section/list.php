@@ -1,0 +1,83 @@
+<?php
+
+return [
+	'title' => [
+		'moderated' => '{Section}',
+		'waiting' => 'モデレート待ちの{Section}',
+	],
+	'menu' => [
+		'count' => '{stats}{count}{/stats}件の送信が見つかりました。{stats}{start}{/stats}–{stats}{end}{/stats}番目を表示しています。', // U+2013 (EN DASH)
+		'view' => '表示: {moderated} | {waiting}',
+		'moderated' => 'モデレート',
+		'waiting' => '[0] モデレート待ち|[*,*] モデレート待ち ({count})',
+		'delete_selected' => '選択したものを削除',
+		'reject_selected' => '選択したものを拒否',
+		'submit' => [
+			'smwhacks' => 'ハックを送信',
+			'sm64hacks' => 'ハックを送信',
+			'sm64music' => '音楽を送信',
+			'sm64textures' => 'テクスチャを送信',
+			'smwsprites' => 'スプライトを送信',
+			'smwgraphics' => 'グラフィックを送信',
+			'yihacks' => 'ハックを送信',
+			'smwblocks' => 'ブロックを送信',
+			'smwpatches' => 'パッチを送信',
+			'tools' => 'ツールを送信',
+			'documents' => '資料を送信',
+			'smwmusic' => '音楽を送信',
+			'sramdatabase' => 'SRAMを送信',
+			'brrsamples' => 'サンプルを送信',
+			'yipatches' => 'パッチを送信',
+			'uberasm' => 'UberASMを送信',
+			'yimusic' => '音楽を送信',
+			'spasm' => 'SPASMを送信',
+		],
+		'random' => 'ランダムに見る',
+	],
+	'filter' => [
+		'title' => 'フィルター',
+		'submit' => 'フィルター',
+		'reset' => 'クリア',
+	],
+	'view' => [
+		'line' => '表示方法: {list} | {gallery}',
+		'list' => 'リスト',
+		'gallery' => 'ギャラリー',
+		'radio' => 'ラジオ',
+	],
+	'header' => [
+		'name' => '名前',
+		'date' => '日付',
+		'authors' => '作成者',
+		'rating' => '評価',
+		'filesize' => 'サイズ',
+		'downloads' => 'ダウンロード',
+	],
+	'sort' => [
+		'title' => '並べ替え: ',
+		'separator' => ' | ',
+		'tooltip' => '{column}で並べ替え',
+		'generic' => 'この列で並べ替え',
+		'field' => [
+			'name' => '名前',
+			'date' => '日付',
+			'rating' => '評価',
+			'filesize' => 'サイズ',
+			'downloads' => 'ダウンロード',
+		],
+	],
+	'moderation' => ' ({moderator}によってモデレートされています)',
+	'list' => [
+		'added' => '追加日時: {datetime}',
+		'submitted' => '送信日時: {username}が{datetime}に送信',
+		'filter' => '"{value}"でフィルター',
+		'no_ratings' => 'なし',
+		'download' => 'ダウンロード',
+		'downloads' => '{count} ダウンロード|{count} ダウンロード',
+	],
+	'gallery' => [
+		'added' => '{datetime}に追加',
+		'submitted' => '{username}が{datetime}に送信',
+		'authors' => '{authors}が作成',
+	],
+];

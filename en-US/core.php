@@ -10,6 +10,7 @@ return [
 		'en-US' => 'English',
 		'fr-CA' => 'Français',
 		'pt-BR' => 'Português',
+		'ja-JP' => '日本語',
 	],
 	'time' => [
 		'now' => 'just now',
@@ -35,8 +36,9 @@ return [
 		'manager' => 'Site Manager',
 		'admin' => 'Administrator',
 		'dev' => [
-			'junior' => 'Walrus in Training',
-			'senior' => 'Walrus Lieutenant',
+			'junior' => 'Developer',
+            'senior' => 'Senior Developer',
+            'lead' => 'Lead Developer',
 			'sysadmin' => 'System Administrator',
 		],
 		'leader' => [

@@ -35,14 +35,15 @@ return [
 		'random' => 'Soumission aléatoire',
 	],
 	'filter' => [
-		'title' => 'Filtrer',
-		'submit' => 'Filtrer',
+		'title' => 'Trier',
+		'submit' => 'Trier',
 		'reset' => 'Effacer',
 	],
 	'view' => [
 		'line' => 'Voir en tant que: {list} | {gallery}',
 		'list' => 'Liste',
 		'gallery' => 'Galerie',
+		'radio' => 'Radio',
 	],
 	'header' => [
 		'name' => 'Nom',
@@ -69,6 +70,7 @@ return [
 	'list' => [
 		'added' => 'Ajouté: {datetime}',
 		'submitted' => 'Soumis: {datetime} par {username}',
+		'filter' => 'Trier par "{value}"',
 		'no_ratings' => 'Aucune',
 		'download' => 'Télécharger',
 		'downloads' => '{count} téléchargement|{count} téléchargements',

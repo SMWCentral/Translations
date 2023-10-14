@@ -15,7 +15,7 @@ return [
 			'rate' => 'Afin de prévenir l\'abus, l\'envoi de commentaires au personnel est sujet à une limite de débit (« rate limit ») globale et n\'est présentement pas disponible. Veuillez réessayer dans 5 minutes.', // U+00AB left-pointing double angle quotation mark     U+00BB right-pointing double angle quotation mark
 		],
 		'reveal' => [
-			'title' => 'Partager votre identité',
+			'title' => 'Partage d\'identité',
 			'label' => 'Partager mon identité',
 			'description' => 'Les commentaires aux personnel sont anonymes par défaut. Si vous cochez cette option, par contre, votre nom d\'utilisateur sera rattaché à votre message, ce qui nous permettera de vous contacter si nécessaire.',
 		],
