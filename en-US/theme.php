@@ -9,19 +9,19 @@ return [
 				'description' => 'Controls which side of the screen the sidebar menu will be on.',
 				'values' => [
 					'right' => '[0] Right|[*,*] Right ({count})',
-					'left' => '[0] Left|[*,*] Left ({count})'
-				]
-			]
-		]
+					'left' => '[0] Left|[*,*] Left ({count})',
+				],
+			],
+		],
 	],
 	'legacy' => [
 		'name' => 'Classic',
 		'options' => [
 			'scheme' => [
 				'title' => 'Scheme',
-				'value' => '[0] {Scheme}|[*,*] {Scheme} ({count})'
-			]
-		]
+				'value' => '[0] {Scheme}|[*,*] {Scheme} ({count})',
+			],
+		],
 	],
 	'smwc2' => [
 		'name' => 'SMWC2',
@@ -34,9 +34,9 @@ return [
 					'classic' => '2006 Nostalgia',
 					'darkblue' => 'Dark Blue',
 					'ambiance' => 'Ambiance',
-					'c3w2023' => "\u{200C}[C3] Mario Party"
-				]
-			]
-		]
-	]
+					'c3w2023' => "\u{200C}[C3] Mario Party",
+				],
+			],
+		],
+	],
 ];

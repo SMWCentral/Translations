@@ -7,7 +7,7 @@ return [
 		'title' => 'Edit',
 		'name' => [
 			'title' => 'name',
-			'description' => 'Renaming a folder may break existing links to it.'
+			'description' => 'Renaming a folder may break existing links to it.',
 		],
 		'show_as' => [
 			'title' => 'index',
@@ -16,17 +16,17 @@ return [
 				'none' => 'None',
 				'newest' => 'Show newest file',
 				'oldest' => 'Show oldest file',
-				'random' => 'Show random file'
-			]
+				'random' => 'Show random file',
+			],
 		],
-		'submit' => 'Save'
+		'submit' => 'Save',
 	],
 	'success' => [
 		'title' => 'Success',
-		'message' => 'Changes saved.'
+		'message' => 'Changes saved.',
 	],
 	'not_found' => [
 		'title' => 'Error',
-		'message' => 'Folder not found.'
-	]
+		'message' => 'Folder not found.',
+	],
 ];

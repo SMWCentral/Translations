@@ -3,13 +3,13 @@
 return [
 	'code' => [
 		'lang' => 'en',
-		'locale' => 'en-US'
+		'locale' => 'en-US',
 	],
 	'title' => '{title} - SMW Central',
 	'language' => [
 		'en-US' => 'English',
 		'fr-CA' => 'Français',
-		'pt-BR' => 'Português'
+		'pt-BR' => 'Português',
 	],
 	'time' => [
 		'now' => 'just now',
@@ -20,13 +20,13 @@ return [
 		'days' => '1 day|{count} days',
 		'hours' => '1 hour|{count} hours',
 		'minutes' => '1 minute|{count} minutes',
-		'seconds' => '1 second|{count} seconds'
+		'seconds' => '1 second|{count} seconds',
 	],
 	'unit' => [
 		'byte' => '{count} byte|{count} bytes',
 		'kibibyte' => "{count}\u{00A0}KiB", // U+00A0 (NO-BREAK SPACE)
 		'mebibyte' => "{count}\u{00A0}MiB",
-		'gibibyte' => "{count}\u{00A0}GiB"
+		'gibibyte' => "{count}\u{00A0}GiB",
 	],
 	'redirection' => 'Click {link}here{/link} or wait to get redirected…', // U+2026 (HORIZONTAL ELLIPSIS)
 	'user_status' => [
@@ -37,7 +37,7 @@ return [
 		'dev' => [
 			'junior' => 'Walrus in Training',
 			'senior' => 'Walrus Lieutenant',
-			'sysadmin' => 'System Administrator'
+			'sysadmin' => 'System Administrator',
 		],
 		'leader' => [
 			'forum' => 'Forum Manager',
@@ -49,7 +49,7 @@ return [
 			'smwasm' => 'SMW ASM Manager',
 			'sm64' => 'SM64 Manager',
 			'yi' => 'Yoshi\'s Island Manager',
-			'documents' => 'Documents Manager'
+			'documents' => 'Documents Manager',
 		],
 		'moderator' => [
 			'forum' => 'Forum Moderator',
@@ -62,7 +62,7 @@ return [
 			'smwasm' => 'SMW ASM Moderator',
 			'sm64' => 'SM64 Moderator',
 			'yi' => 'Yoshi\'s Island Moderator',
-			'documents' => 'Documents Moderator'
+			'documents' => 'Documents Moderator',
 		],
 		'pr' => 'Public Relations',
 		'helper' => [
@@ -74,18 +74,18 @@ return [
 			'smwasm' => 'SMW ASM Helper',
 			'sm64' => 'SM64 Helper',
 			'yi' => 'Yoshi\'s Island Helper',
-			'documents' => 'Documents Helper'
+			'documents' => 'Documents Helper',
 		],
 		'system' => 'Human Resources',
 		'former' => [
 			'admin' => 'Former Administrator',
 			'dev' => 'Legendary Former Walrus',
 			'legend' => 'Legend',
-			'staff' => 'Legendary Ex-Staff Member'
+			'staff' => 'Legendary Ex-Staff Member',
 		],
 		'time_banned' => 'Banned Until {date}',
 		'banned' => 'Banned',
-		'disabled' => 'Account Disabled'
+		'disabled' => 'Account Disabled',
 	],
 	'post' => [
 		'history' => 'Post history',
@@ -94,22 +94,22 @@ return [
 		'edit' => 'Edit',
 		'delete' => 'Delete',
 		'ip' => 'Search IP',
-		'warn' => 'Warn'
+		'warn' => 'Warn',
 	],
 	'recent_notice' => [
 		'title' => 'Recent Notice',
-		'message' => 'You have recently been sent a notice from a moderator. You will be redirected to the notice.'
+		'message' => 'You have recently been sent a notice from a moderator. You will be redirected to the notice.',
 	],
 	'recent_infraction' => [
 		'title' => 'Recent Infraction',
-		'message' => 'You have recently been issued an infraction for offensive behavior. You will be redirected to the infraction.'
+		'message' => 'You have recently been issued an infraction for offensive behavior. You will be redirected to the infraction.',
 	],
 	'permission_denied' => [
 		'title' => 'Permission Denied',
-		'message' => 'You do not have permission to do this.'
+		'message' => 'You do not have permission to do this.',
 	],
 	'server_error' => [
 		'title' => 'Error',
-		'message' => 'Internal error, try again later.'
-	]
+		'message' => 'Internal error, try again later.',
+	],
 ];

@@ -5,22 +5,22 @@ return [
 		'title' => [
 			'default' => 'Plan-mémoire',
 			'success' => 'Succès',
-			'error' => 'Erreur'
-		]
+			'error' => 'Erreur',
+		],
 	],
     'delete' => [
         'title' => [
             'reject' => 'Confirmer le rejet',
-            'delete' => 'Confirmer la suppression'
+            'delete' => 'Confirmer la suppression',
         ],
         'text' => [
             'reject' => 'Êtes-vous sûr de vouloir rejeter {bold}{addresses}{/bold}?',
-            'delete' => 'Êtes-vous sûr de vouloir supprimer {bold}{addresses}{/bold}?'
-        ]
+            'delete' => 'Êtes-vous sûr de vouloir supprimer {bold}{addresses}{/bold}?',
+        ],
     ],
 	'map' => [
 		'title' => 'Plan-mémoire de {Game}',
         'empty' => 'Aucune addresse ne correspond à vos critères de recherche.',
-        'error' => 'Erreur'
-	]
+        'error' => 'Erreur',
+	],
 ];

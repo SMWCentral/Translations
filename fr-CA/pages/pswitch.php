@@ -1,5 +1,5 @@
 <?php
 
 return [
-	'title' => 'Interrupteur P'
+	'title' => 'Interrupteur P',
 ];

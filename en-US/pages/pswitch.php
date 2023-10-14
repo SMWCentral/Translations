@@ -1,5 +1,5 @@
 <?php
 
 return [
-	'title' => 'P-Switch'
+	'title' => 'P-Switch',
 ];

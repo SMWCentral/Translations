@@ -13,7 +13,7 @@ return [
 		'staffpanel' => 'Tableau de bord du personnel',
 		'search' => 'Rechercher…', // U+2026 (HORIZONTAL ELLIPSIS)
 		'go' => 'Go',
-		'language' => 'Langue…' // U+2026 (HORIZONTAL ELLIPSIS)
+		'language' => 'Langue…', // U+2026 (HORIZONTAL ELLIPSIS)
 	],
 	'menu' => [
 		'title' => 'Menu',
@@ -27,7 +27,7 @@ return [
 			'beginners' => 'Guide pour débutants',
 			'discord' => 'Discord',
 			'staff' => 'Personnel',
-			'links' => 'Liens'
+			'links' => 'Liens',
 		],
 		'smw' => [
 			'name' => 'Super Mario World',
@@ -48,7 +48,7 @@ return [
 			'documents' => 'Documents',
 			'rom_map' => 'Plan du ROM',
 			'ram_map' => 'Plan du RAM',
-			'hijack_map' => 'Plan des hijacks'
+			'hijack_map' => 'Plan des hijacks',
 		],
 		'yi' => [
 			'name' => 'SMW2: Yoshi\'s Island',
@@ -63,7 +63,7 @@ return [
 			'documents' => 'Documents',
 			'rom_map' => 'Plan du ROM',
 			'ram_map' => 'Plan du RAM',
-			'sram_map' => 'Plan du SRAM'
+			'sram_map' => 'Plan du SRAM',
 		],
 		'sm64' => [
 			'name' => 'Super Mario 64',
@@ -76,7 +76,7 @@ return [
 			'textures' => 'Textures',
 			'documents' => 'Documents',
 			'rom_map' => 'Plan du ROM',
-			'ram_map' => 'Plan du RAM'
+			'ram_map' => 'Plan du RAM',
 		],
 		'unread' => "[1] \u{A0}- {new}nouv.{/new}|[*,*] \u{A0}- {new}{count} nouv.{/new}", // \u{A0} is U+00A0 (NO-BREAK SPACE)
 	],
@@ -84,7 +84,7 @@ return [
 		'users' => 'Utilisateurs: {stats}{count}{/stats}',
 		'active_users' => '({count} actifs)',
 		'latest_user' => 'Dernier utilisateur: {user}',
-		'latest_user_hidden' => 'Dernier utilisateur invisible'
+		'latest_user_hidden' => 'Dernier utilisateur invisible',
 	],
 	'footer' => [
 		'page_views' => 'Visionnements: {stats}{count}{/stats}',
@@ -94,39 +94,39 @@ return [
 		'affiliates' => 'Communautés affiliées (Liens vers nous)',
 		'queries' => 'Requêtes: ~ {stats}{count}{/stats}',
 		'generate_sql_report' => 'Générer un rapport SQL',
-		'sql_report' => 'Rapport SQL'
+		'sql_report' => 'Rapport SQL',
 	],
 	'online_user_list' => [
 		'online' => '{stats}{count}{/stats} utilisateur en ligne:|{stats}{count}{/stats} utilisateurs en ligne:',
-		'hidden' => '{stats}{count}{/stats} utilisateur en ligne (invisibles: {stats}{hidden}{/stats}):|{stats}{count}{/stats} utilisateurs en ligne (invisibles: {stats}{hidden}{/stats}):', //putting "invisibles" after the number would make it conditional on plurals
+		'hidden' => '{stats}{count}{/stats} utilisateur en ligne (invisibles: {stats}{hidden}{/stats}):|{stats}{count}{/stats} utilisateurs en ligne (invisibles: {stats}{hidden}{/stats}):', // putting "invisibles" after the number would make it conditional on plurals
 		'user_separator' => ', ',
 		'guests' => 'Visiteurs: {stats}{count}{/stats}',
 		'stat_separator' => ' - ',
-		'bots' => 'Bots: {stats}{count}{/stats}'
+		'bots' => 'Bots: {stats}{count}{/stats}',
 	],
 	'pagination' => [
 		'title' => 'Pages:',
 		'range' => '{start}–{end}', // U+2013 (EN DASH)
 		'asc' => 'Ascendant',
-		'desc' => 'Descendant'
+		'desc' => 'Descendant',
 	],
 	'post' => [
 		'info' => [
 			'generic' => 'Publiée le {datetime}',
 			'thread' => 'Publiée le {datetime} dans {thread}',
-			'recipient' => 'Envoyée le {datetime} à {username}'
+			'recipient' => 'Envoyée le {datetime} à {username}',
 		],
 		'unread' => 'NOUV.',
 		'separator' => [
 			'info' => ' - ',
-			'menu' => ' | '
+			'menu' => ' | ',
 		],
-		'edited' => 'Dernière modification le {datetime} par {username}'
+		'edited' => 'Dernière modification le {datetime} par {username}',
 	],
 	'post_sidebar' => [
 		'last_seen' => [
 			'online' => 'En ligne',
-			'never' => 'Jamais'
+			'never' => 'Jamais',
 		],
 		'avatar' => 'Photo',
 		'info' => [
@@ -136,8 +136,8 @@ return [
 			'from' => 'Localisation: {stats}{location}{/stats}',
 			'pronouns' => 'Pronoms: {stats}{pronouns}{/stats}',
 			'last_seen' => 'Dernière activité: {stats}{time}{/stats}',
-			'last_warning' => 'Dernière infraction: {link}{time}{/link}'
-		]
+			'last_warning' => 'Dernière infraction: {link}{time}{/link}',
+		],
 	],
 	'qp_menu' => [
 		'title' => 'Punition',
@@ -148,19 +148,19 @@ return [
 		'sectionBan' => 'Bannissement de section',
 		'disable' => 'Désactiver',
 		'nuke' => 'Éliminer des champs de profil',
-		'kamikaze' => 'Kamikaze'
+		'kamikaze' => 'Kamikaze',
 	],
 	'secondary_menu' => [
-		'toggle' => 'Basculer le menu'
+		'toggle' => 'Basculer le menu',
 	],
 	'form' => [
 		'horizontal' => [
 			'title' => '{Title}',
-			'description' => '{Description}'
+			'description' => '{Description}',
 		],
 		'vertical' => [
 			'title' => '{Title}: ',
-			'label' => '{Title}'
-		]
-	]
+			'label' => '{Title}',
+		],
+	],
 ];

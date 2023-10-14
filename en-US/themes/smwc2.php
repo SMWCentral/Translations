@@ -13,7 +13,7 @@ return [
 		'staffpanel' => 'Staff Panel',
 		'search' => 'Search…', // U+2026 (HORIZONTAL ELLIPSIS)
 		'go' => 'Go',
-		'language' => 'Language…' // U+2026 (HORIZONTAL ELLIPSIS)
+		'language' => 'Language…', // U+2026 (HORIZONTAL ELLIPSIS)
 	],
 	'menu' => [
 		'title' => 'Menu',
@@ -27,7 +27,7 @@ return [
 			'beginners' => 'Beginners\' Guide',
 			'discord' => 'Discord',
 			'staff' => 'Staff',
-			'links' => 'Links'
+			'links' => 'Links',
 		],
 		'smw' => [
 			'name' => 'Super Mario World',
@@ -48,7 +48,7 @@ return [
 			'documents' => 'Documents',
 			'rom_map' => 'ROM Map',
 			'ram_map' => 'RAM Map',
-			'hijack_map' => 'Hijack Map'
+			'hijack_map' => 'Hijack Map',
 		],
 		'yi' => [
 			'name' => 'SMW2: Yoshi\'s Island',
@@ -63,7 +63,7 @@ return [
 			'documents' => 'Documents',
 			'rom_map' => 'ROM Map',
 			'ram_map' => 'RAM Map',
-			'sram_map' => 'SRAM Map'
+			'sram_map' => 'SRAM Map',
 		],
 		'sm64' => [
 			'name' => 'Super Mario 64',
@@ -76,7 +76,7 @@ return [
 			'textures' => 'Textures',
 			'documents' => 'Documents',
 			'rom_map' => 'ROM Map',
-			'ram_map' => 'RAM Map'
+			'ram_map' => 'RAM Map',
 		],
 		'unread' => "[1] \u{A0}- {new}new{/new}|[*,*] \u{A0}- {new}{count} new{/new}", // \u{A0} is U+00A0 (NO-BREAK SPACE)
 	],
@@ -84,7 +84,7 @@ return [
 		'users' => 'Users: {stats}{count}{/stats}',
 		'active_users' => '({count} active)',
 		'latest_user' => 'Latest user: {user}',
-		'latest_user_hidden' => 'Latest user hidden'
+		'latest_user_hidden' => 'Latest user hidden',
 	],
 	'footer' => [
 		'page_views' => 'Views: {stats}{count}{/stats}',
@@ -95,7 +95,7 @@ return [
 		'oss' => 'Open Source',
 		'queries' => 'Queries: ~ {stats}{count}{/stats}',
 		'generate_sql_report' => 'Generate SQL Report',
-		'sql_report' => 'SQL Report'
+		'sql_report' => 'SQL Report',
 	],
 	'online_user_list' => [
 		'online' => '{stats}{count}{/stats} user online:|{stats}{count}{/stats} users online:',
@@ -103,31 +103,31 @@ return [
 		'user_separator' => ', ',
 		'guests' => 'Guests: {stats}{count}{/stats}',
 		'stat_separator' => ' - ',
-		'bots' => 'Bots: {stats}{count}{/stats}'
+		'bots' => 'Bots: {stats}{count}{/stats}',
 	],
 	'pagination' => [
 		'title' => 'Pages:',
 		'range' => '{start}–{end}', // U+2013 (EN DASH)
 		'asc' => 'Ascending',
-		'desc' => 'Descending'
+		'desc' => 'Descending',
 	],
 	'post' => [
 		'info' => [
 			'generic' => 'Posted on {datetime}',
 			'thread' => 'Posted on {datetime} in {thread}',
-			'recipient' => 'Sent on {datetime} to {username}'
+			'recipient' => 'Sent on {datetime} to {username}',
 		],
 		'unread' => 'NEW',
 		'separator' => [
 			'info' => ' - ',
-			'menu' => ' | '
+			'menu' => ' | ',
 		],
-		'edited' => 'Last edited on {datetime} by {username}'
+		'edited' => 'Last edited on {datetime} by {username}',
 	],
 	'post_sidebar' => [
 		'last_seen' => [
 			'online' => 'Online',
-			'never' => 'Never'
+			'never' => 'Never',
 		],
 		'avatar' => 'Avatar',
 		'info' => [
@@ -137,8 +137,8 @@ return [
 			'from' => 'From: {stats}{location}{/stats}',
 			'pronouns' => 'Pronouns: {stats}{pronouns}{/stats}',
 			'last_seen' => 'Last seen: {stats}{time}{/stats}',
-			'last_warning' => 'Last infraction: {link}{time}{/link}'
-		]
+			'last_warning' => 'Last infraction: {link}{time}{/link}',
+		],
 	],
 	'qp_menu' => [
 		'title' => 'Punishment',
@@ -149,19 +149,19 @@ return [
 		'sectionBan' => 'Section ban',
 		'disable' => 'Disable',
 		'nuke' => 'Nuke profile fields',
-		'kamikaze' => 'Kamikaze'
+		'kamikaze' => 'Kamikaze',
 	],
 	'secondary_menu' => [
-		'toggle' => 'Toggle menu'
+		'toggle' => 'Toggle menu',
 	],
 	'form' => [
 		'horizontal' => [
 			'title' => '{Title}',
-			'description' => '{Description}'
+			'description' => '{Description}',
 		],
 		'vertical' => [
 			'title' => '{Title}: ',
-			'label' => '{Title}'
-		]
-	]
+			'label' => '{Title}',
+		],
+	],
 ];

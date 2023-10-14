@@ -3,7 +3,7 @@
 return [
 	'title' => [
 		'create' => 'New Article',
-		'edit' => 'Edit {title}'
+		'edit' => 'Edit {title}',
 	],
 	'preview' => 'Preview',
 	'info' => 'Posted by {username} on {date}',
@@ -14,23 +14,23 @@ return [
 		'priority' => 'priority', // integer, between.integer
 		'internal' => [
 			'title' => 'Internal', // boolean
-			'description' => '"Internal" articles cover topics that only matter to registered users, and might confuse or even put off the rest. They\'re not shown on the main page if you\'re not logged in.'
+			'description' => '"Internal" articles cover topics that only matter to registered users, and might confuse or even put off the rest. They\'re not shown on the main page if you\'re not logged in.',
 		],
 		'submit' => 'Publish',
-		'preview' => 'Preview'
+		'preview' => 'Preview',
 	],
 	'not_found' => [
 		'title' => 'Error',
-		'message' => 'Article not found.'
+		'message' => 'Article not found.',
 	],
 	'success' => [
 		'create' => [
 			'title' => 'Success',
-			'message' => 'Article created.'
+			'message' => 'Article created.',
 		],
 		'edit' => [
 			'title' => 'Success',
-			'message' => 'Article updated.'
-		]
-	]
+			'message' => 'Article updated.',
+		],
+	],
 ];

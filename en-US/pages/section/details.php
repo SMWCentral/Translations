@@ -5,7 +5,7 @@ return [
 	'age_gate' => 'This file contains content unsuitable for minors.',
 	'breadcrumbs' => [
 		'moderated' => '{link}{section}{/link} → {file}', // U+2192 (RIGHTWARDS ARROW)
-		'waiting' => '{link}Waiting {section}{/link} → {file}' // U+2192 (RIGHTWARDS ARROW)
+		'waiting' => '{link}Waiting {section}{/link} → {file}', // U+2192 (RIGHTWARDS ARROW)
 	],
 	'action' => [
 		'submit_update' => 'Submit Update',
@@ -18,7 +18,7 @@ return [
 		'watch' => 'Watch',
 		'unwatch' => 'Unwatch',
 		'random' => 'Show random',
-		'link' => 'Link'
+		'link' => 'Link',
 	],
 	'obsolete' => 'This file is obsolete. The latest version is {latest_link}{latest}{/link}. For other versions, check the {history_link}version history{/link}.',
 	'content' => [
@@ -28,7 +28,7 @@ return [
 		'crude_language' => 'crude language',
 		'sexual_content' => 'sexual content',
 		'violence' => 'violence',
-		'epilepsy' => 'content (such as flashing imagery) that may be harmful to people with photosensitive epilepsy or similar conditions'
+		'epilepsy' => 'content (such as flashing imagery) that may be harmful to people with photosensitive epilepsy or similar conditions',
 	],
 	'details' => 'Submission Details',
 	'field' => [
@@ -37,42 +37,42 @@ return [
 		'added' => 'Added:',
 		'history' => [
 			'name' => 'Version History:',
-			'view' => 'View'
+			'view' => 'View',
 		],
 		'submitted' => [
 			'name' => 'Submitted:',
-			'content' => '{date} by {user}'
+			'content' => '{date} by {user}',
 		],
 		'obsoletes' => 'Obsoletes:',
 		'submission_notes' => 'Submission Notes:',
 		'preview' => 'Preview:',
 		'tags' => [
 			'name' => 'Tags:',
-			'view_all' => 'View all submissions with this tag'
+			'view_all' => 'View all submissions with this tag',
 		],
 		'comments' => [
 			'name' => 'Comments:',
-			'jump' => '(jump to comments)'
+			'jump' => '(jump to comments)',
 		],
 		'rating' => [
 			'name' => 'Rating:',
 			'count' => '(1 rating)|({count} ratings)',
-			'none' => 'No rating'
+			'none' => 'No rating',
 		],
-		'claimed' => 'Claimed for moderation by {user} on {date}'
+		'claimed' => 'Claimed for moderation by {user} on {date}',
 	],
 	'download' => [
 		'button' => 'Download',
 		'info' => '{size} | {downloads}',
-		'count' => '1 download|{count} downloads'
+		'count' => '1 download|{count} downloads',
 	],
 	'rate' => [
 		'name' => 'Rate:',
-		'star' => 'Rate {count}'
+		'star' => 'Rate {count}',
 	],
 	'images' => [
 		'title' => 'Screenshots',
-		'view_all' => 'View all'
+		'view_all' => 'View all',
 	],
 	'comments' => [
 		'title' => '[0] Comments|[*,*]Comments ({count})',
@@ -82,17 +82,17 @@ return [
 			'replying' => 'Replying to {author}: {text}',
 			'unreply' => 'cancel reply',
 			'submit' => 'Post',
-			'preview' => 'Preview'
+			'preview' => 'Preview',
 		],
 		'option' => [
 			'filter' => 'Showing comments from:',
 			'all' => 'All versions',
-			'current' => 'Only this version'
+			'current' => 'Only this version',
 		],
 		'badge' => [
 			'author' => 'Author',
 			'pinned' => 'Pinned',
-			'old' => 'From older version: {link}{name}{/link}'
+			'old' => 'From older version: {link}{name}{/link}',
 		],
 		'link' => 'Link',
 		'reply' => 'Reply',
@@ -100,10 +100,10 @@ return [
 		'pin' => 'Pin',
 		'unpin' => 'Unpin',
 		'edit' => 'Edit',
-		'delete' => 'Delete'
+		'delete' => 'Delete',
 	],
 	'not_found' => [
 		'title' => 'Error',
-		'message' => 'File not found.'
-	]
+		'message' => 'File not found.',
+	],
 ];

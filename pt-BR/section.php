@@ -19,29 +19,29 @@ return [
 		'yipatches' => 'Patches para YI',
 		'uberasm' => 'Repositório de UberASM',
 		'yimusic' => 'Música para YI',
-		'spasm' => 'Repositório de SPASM'
+		'spasm' => 'Repositório de SPASM',
 	],
 	'field' => [
 		'common' => [
 			'name' => 'nome',
 			'author' => [
 				'name' => 'autor',
-				'description' => 'Até 5, separado por vírgula.'
+				'description' => 'Até 5, separado por vírgula.',
 			],
 			'tags' => [
 				'name' => 'marcadores',
-				'description' => 'Até 5, separado por vírgula. Prefix a tag with + to require multiple (+space,+planet). Prefix with - to exclude (-planet).'
-			]
+				'description' => 'Até 5, separado por vírgula. Prefix a tag with + to require multiple (+space,+planet). Prefix with - to exclude (-planet).',
+			],
 		],
 		'smwhacks' => [
 			'demo' => 'Demonstração',
 			'featured' => [
 				'name' => 'Em Destaque',
-				'description' => 'Controla o status de destaque da hack.'
+				'description' => 'Controla o status de destaque da hack.',
 			],
 			'length' => [
 				'name' => 'Duração',
-				'description' => 'Número de saídas de fase (level exits) na hack.'
+				'description' => 'Número de saídas de fase (level exits) na hack.',
 			],
 			'difficulty' => [
 				'name' => 'Tipo',
@@ -53,10 +53,10 @@ return [
 					'kaizo_light' => 'Kaizo: Leve',
 					'kaizo_hard' => 'Kaizo: Difícil',
 					'pit' => 'Kaizo: Pit',
-					'troll' => 'Misc.: Troll'
-				]
+					'troll' => 'Misc.: Troll',
+				],
 			],
-			'description' => 'Descrição'
+			'description' => 'Descrição',
 		],
 		'sm64hacks' => [
 			'difficulty' => [
@@ -65,16 +65,16 @@ return [
 					'easy' => 'Fácil',
 					'intermediate' => 'Intermediária',
 					'hard' => 'Difícil',
-					'kaizo' => 'Kaizo'
-				]
+					'kaizo' => 'Kaizo',
+				],
 			],
 			'demo' => 'Demonstração',
 			'length' => [
 				'name' => 'Duração',
-				'description' => 'Número de estrelas na hack.'
+				'description' => 'Número de estrelas na hack.',
 			],
 			'description' => 'Descrição',
-			'video' => 'Link para Vídeo'
+			'video' => 'Link para Vídeo',
 		],
 		'sm64music' => [
 			'nlist' => [
@@ -117,24 +117,24 @@ return [
 					'nlst_34' => 'NLST 34 (Bob-Omb Battlefield)',
 					'nlst_35' => 'NLST 35 (Ending)',
 					'nlst_36' => 'NLST 36 (File Select)',
-					'nlst_37' => 'NLST 37 (Credits)'
-				]
+					'nlst_37' => 'NLST 37 (Credits)',
+				],
 			],
-			'description' => 'Descrição'
+			'description' => 'Descrição',
 		],
 		'sm64textures' => [
 			'type' => [
 				'name' => 'Tipo',
 				'options' => [
 					'original' => 'Original',
-					'ripped' => 'Ripada'
-				]
+					'ripped' => 'Ripada',
+				],
 			],
 			'amount' => [
 				'name' => 'Número de Texturas',
-				'description' => 'Quantidade de texturas no pacote.'
+				'description' => 'Quantidade de texturas no pacote.',
 			],
-			'description' => 'Descrição'
+			'description' => 'Descrição',
 		],
 		'smwsprites' => [
 			'tool' => [
@@ -145,8 +145,8 @@ return [
 					'giepy' => 'GIEPY',
 					'romis_spritetool' => 'Romi\'s Spritetool',
 					'overworld_spritetool' => 'Overworld Spritetool',
-					'other' => 'Outra'
-				]
+					'other' => 'Outra',
+				],
 			],
 			'type' => [
 				'name' => 'Tipo',
@@ -159,36 +159,36 @@ return [
 					'cluster' => 'Cluster',
 					'extended' => 'Extendido (Extended)',
 					'run-once' => 'Execução Única (Run-Once)',
-					'other' => 'Outro'
-				]
+					'other' => 'Outro',
+				],
 			],
 			'dynamic' => [
 				'name' => 'Dinâmico',
 				'list' => 'Din.',
-				'description' => 'Este é um sprite dinâmico?'
+				'description' => 'Este é um sprite dinâmico?',
 			],
 			'disassembly' => [
 				'name' => 'Disassembly',
 				'list' => 'Dis.',
-				'description' => 'Este sprite é um disassembly (desmontado)?'
+				'description' => 'Este sprite é um disassembly (desmontado)?',
 			],
 			'includesgfx' => [
 				'name' => 'Gráficos Inclusos',
 				'list' => 'GFX',
-				'description' => 'Quando aplicável, esta submissão de sprite inclui gráficos?'
+				'description' => 'Quando aplicável, esta submissão de sprite inclui gráficos?',
 			],
 			'description' => [
 				'name' => 'Descrição',
-				'description' => 'A descrição deve incluir detalhes como notas de uso, registro de alterações, bugs conhecidos, se blocos necessários para uso estão inclusos, ou planos futuros.'
-			]
+				'description' => 'A descrição deve incluir detalhes como notas de uso, registro de alterações, bugs conhecidos, se blocos necessários para uso estão inclusos, ou planos futuros.',
+			],
 		],
 		'smwgraphics' => [
 			'type' => [
 				'name' => 'Tipo',
 				'options' => [
 					'original' => 'Original',
-					'ripped' => 'Ripado'
-				]
+					'ripped' => 'Ripado',
+				],
 			],
 			'purpose' => [
 				'name' => 'Função',
@@ -201,33 +201,33 @@ return [
 					'overworld' => 'Mapa (Overworld)',
 					'font' => 'Fonte',
 					'miscellaneous' => 'Diversos',
-					'graphics_hack' => 'Hack de Gráficos'
-				]
+					'graphics_hack' => 'Hack de Gráficos',
+				],
 			],
-			'description' => 'Descrição'
+			'description' => 'Descrição',
 		],
 		'yihacks' => [
 			'demo' => 'Demonstração',
 			'length' => [
 				'name' => 'Duração',
-				'description' => 'Número de fases na hack.'
+				'description' => 'Número de fases na hack.',
 			],
-			'description' => 'Descrição'
+			'description' => 'Descrição',
 		],
 		'smwblocks' => [
 			'actas' => [
 				'name' => 'Comportamento (Act As)',
-				'description' => 'Como este bloco deve se comportar?'
+				'description' => 'Como este bloco deve se comportar?',
 			],
 			'includesgfx' => [
 				'name' => 'Gráficos Inclusos',
 				'list' => 'GFX',
-				'description' => 'Quando aplicável, esta submissão de bloco inclui gráficos?'
+				'description' => 'Quando aplicável, esta submissão de bloco inclui gráficos?',
 			],
 			'description' => [
 				'name' => 'Descrição',
-				'description' => 'Escreva uma descrição do seu bloco que será vista na página do arquivo. Inclua detalhes como notas de uso, registro de alterações, bugs conhecidos, se patches ou sprites necessários para uso estão inclusos, ou planos futuros.'
-			]
+				'description' => 'Escreva uma descrição do seu bloco que será vista na página do arquivo. Inclua detalhes como notas de uso, registro de alterações, bugs conhecidos, se patches ou sprites necessários para uso estão inclusos, ou planos futuros.',
+			],
 		],
 		'smwpatches' => [
 			'tool' => [
@@ -236,18 +236,18 @@ return [
 				'options' => [
 					'xkas' => 'xkas',
 					'asar' => 'Asar',
-					'both' => 'Asar ou xkas'
-				]
+					'both' => 'Asar ou xkas',
+				],
 			],
 			'freespace' => [
 				'name' => 'Requer Espaço Livre',
 				'list' => 'FS',
-				'description' => 'Este patch requer espaço livre?'
+				'description' => 'Este patch requer espaço livre?',
 			],
 			'bugfix' => [
 				'name' => 'Bug Fix',
 				'list' => 'Fix',
-				'description' => 'Este patch conserta bugs do Super Mario World original?'
+				'description' => 'Este patch conserta bugs do Super Mario World original?',
 			],
 			'featured' => [
 				'name' => 'Em Destaque',
@@ -255,13 +255,13 @@ return [
 				'options' => [
 					'no' => 'Não',
 					'yes' => 'Sim',
-					'essential' => 'Essencial'
-				]
+					'essential' => 'Essencial',
+				],
 			],
 			'description' => [
 				'name' => 'Descrição',
-				'description' => 'Escreva uma descrição completa do seu patch que será vista na página de detalhes. Inclua detalhes como notas de uso, registro de alterações, bugs conhecidos, planos futuros, lista de hijacks, espaço livre, e uso de RAM.'
-			]
+				'description' => 'Escreva uma descrição completa do seu patch que será vista na página de detalhes. Inclua detalhes como notas de uso, registro de alterações, bugs conhecidos, planos futuros, lista de hijacks, espaço livre, e uso de RAM.',
+			],
 		],
 		'tools' => [
 			'os' => [
@@ -272,8 +272,8 @@ return [
 					'windows' => 'Windows',
 					'mac_os' => 'Mac OS X',
 					'linux' => 'Linux',
-					'other' => 'Outro'
-				]
+					'other' => 'Outro',
+				],
 			],
 			'platforms' => [
 				'name' => 'Plataformas',
@@ -281,8 +281,8 @@ return [
 				'options' => [
 					'general' => 'Geral',
 					'snes' => 'SNES',
-					'n64' => 'N64'
-				]
+					'n64' => 'N64',
+				],
 			],
 			'games' => [
 				'name' => 'Jogos',
@@ -291,13 +291,13 @@ return [
 					'general' => 'Geral',
 					'smw' => 'SMW',
 					'yi' => 'YI',
-					'sm64' => 'SM64'
-				]
+					'sm64' => 'SM64',
+				],
 			],
 			'source' => [
 				'name' => 'Fonte Disponível',
 				'list' => 'Fnt.',
-				'description' => 'O código fonte da ferramenta vem incluso ou está disponível em outro lugar?'
+				'description' => 'O código fonte da ferramenta vem incluso ou está disponível em outro lugar?',
 			],
 			'featured' => [
 				'name' => 'Em Destaque',
@@ -305,14 +305,14 @@ return [
 				'options' => [
 					'no' => 'Não',
 					'yes' => 'Sim',
-					'essential' => 'Essencial'
-				]
+					'essential' => 'Essencial',
+				],
 			],
 			'website' => 'Website',
 			'description' => [
 				'name' => 'Descrição',
-				'description' => 'Escreva uma descrição completa da sua ferramenta que será vista na página de detalhes. Inclua detalhes como notas de uso, registro de alterações, bugs conhecidos e planos futuros.'
-			]
+				'description' => 'Escreva uma descrição completa da sua ferramenta que será vista na página de detalhes. Inclua detalhes como notas de uso, registro de alterações, bugs conhecidos e planos futuros.',
+			],
 		],
 		'documents' => [
 			'platforms' => [
@@ -321,8 +321,8 @@ return [
 				'options' => [
 					'general' => 'Geral',
 					'snes' => 'SNES',
-					'n64' => 'N64'
-				]
+					'n64' => 'N64',
+				],
 			],
 			'games' => [
 				'name' => 'Jogos',
@@ -331,16 +331,16 @@ return [
 					'general' => 'Geral',
 					'smw' => 'SMW',
 					'yi' => 'YI',
-					'sm64' => 'SM64'
-				]
+					'sm64' => 'SM64',
+				],
 			],
 			'type' => [
 				'name' => 'Tipo',
 				'description' => 'Esta submissão serve como documentação, ou é um tutorial?',
 				'options' => [
 					'documentation' => 'Documentação',
-					'tutorial' => 'Tutorial'
-				]
+					'tutorial' => 'Tutorial',
+				],
 			],
 			'language' => [
 				'name' => 'Idioma',
@@ -353,18 +353,18 @@ return [
 					'french' => 'Francês',
 					'german' => 'Alemão',
 					'italian' => 'Italiano',
-					'other' => 'Outro'
-				]
+					'other' => 'Outro',
+				],
 			],
 			'description' => [
 				'name' => 'Descrição',
-				'description' => 'Escreva uma descrição do seu documento que será vista completa na página de detalhes. Inclua detalhes como índice, registro de alterações, e planos futuros.'
-			]
+				'description' => 'Escreva uma descrição do seu documento que será vista completa na página de detalhes. Inclua detalhes como índice, registro de alterações, e planos futuros.',
+			],
 		],
 		'smwmusic' => [
 			'size' => [
 				'name' => 'Tamanho de Inserção',
-				'description' => 'Tamanho de inserção do pedaço de música em hex. Apenas necessários para Canções e submissões Diversas - caso contrário, deixe em branco. Omita o 0x ao digitar o tamanho de inserção, já que o site o gera automaticamente.'
+				'description' => 'Tamanho de inserção do pedaço de música em hex. Apenas necessários para Canções e submissões Diversas - caso contrário, deixe em branco. Omita o 0x ao digitar o tamanho de inserção, já que o site o gera automaticamente.',
 			],
 			'type' => [
 				'name' => 'Tipo',
@@ -373,8 +373,8 @@ return [
 					'song' => 'Canção',
 					'soundtrack' => 'Trilha Sonora',
 					'sound_effect' => 'Efeito Sonoro',
-					'misc' => 'Diversos'
-				]
+					'misc' => 'Diversos',
+				],
 			],
 			'samples' => [
 				'name' => 'Utilização de Sample',
@@ -383,8 +383,8 @@ return [
 				'options' => [
 					'none' => 'Nenhuma',
 					'light' => 'Leve',
-					'many' => 'Muita'
-				]
+					'many' => 'Muita',
+				],
 			],
 			'source' => [
 				'name' => 'Fonte',
@@ -392,32 +392,32 @@ return [
 				'options' => [
 					'port' => 'Port',
 					'remix' => 'Remix',
-					'original' => 'Original'
-				]
+					'original' => 'Original',
+				],
 			],
 			'duration' => [
 				'name' => 'Duração',
-				'description' => 'Duração do pedaço de música em um loop. Necessário apenas para Canções e submissões Diversas - caso contrário, deixe em branco.'
+				'description' => 'Duração do pedaço de música em um loop. Necessário apenas para Canções e submissões Diversas - caso contrário, deixe em branco.',
 			],
 			'featured' => [
 				'name' => 'Em Destaque',
-				'description' => 'Ports de música ou composições que se destacaram com distinção.'
+				'description' => 'Ports de música ou composições que se destacaram com distinção.',
 			],
 			'description' => [
 				'name' => 'Descrição',
-				'description' => 'Escreva uma descrição para seu pedaço de música que será vista na lista de arquivos principal. Inclua detalhes como possíveis fins ou áreas onde ela poderia combinar, assim como qualquer informação necessária que precisa ser de conhecimento da submissão.'
-			]
+				'description' => 'Escreva uma descrição para seu pedaço de música que será vista na lista de arquivos principal. Inclua detalhes como possíveis fins ou áreas onde ela poderia combinar, assim como qualquer informação necessária que precisa ser de conhecimento da submissão.',
+			],
 		],
 		'sramdatabase' => [
 			'hid' => [
 				'name' => 'Link para hack',
 				'list' => 'Link para hack',
-				'description' => 'Este campo deve conter um link para a hack desta SRAM.'
+				'description' => 'Este campo deve conter um link para a hack desta SRAM.',
 			],
 			'description' => [
 				'name' => 'Descrição',
-				'description' => 'Diga em qual fase a SRAM foi salva.'
-			]
+				'description' => 'Diga em qual fase a SRAM foi salva.',
+			],
 		],
 		'brrsamples' => [
 			'collection' => [
@@ -425,37 +425,37 @@ return [
 				'description' => 'Esta submissão é um sample único ou uma coleção de samples?',
 				'options' => [
 					'compilation' => 'Compilação',
-					'single' => 'Único'
-				]
+					'single' => 'Único',
+				],
 			],
 			'description' => [
 				'name' => 'Descrição',
-				'description' => 'Descreva sua submissão.'
-			]
+				'description' => 'Descreva sua submissão.',
+			],
 		],
 		'yipatches' => [
 			'freespace' => [
 				'name' => 'Requer Espaço Livre',
 				'list' => 'FS',
-				'description' => 'Este patch requer espaço livre?'
+				'description' => 'Este patch requer espaço livre?',
 			],
 			'bugfix' => [
 				'name' => 'Bug Fix',
 				'list' => 'Fix',
-				'description' => 'Este patch conserta bugs do Yoshi\'s Island original?'
+				'description' => 'Este patch conserta bugs do Yoshi\'s Island original?',
 			],
 			'featured' => [
 				'name' => 'Em Destaque',
 				'description' => 'Este é um patch amplamente conhecido ou útil que deve ficar em destaque?',
 				'options' => [
 					'no' => 'Não',
-					'yes' => 'Sim'
-				]
+					'yes' => 'Sim',
+				],
 			],
 			'description' => [
 				'name' => 'Descrição',
-				'description' => 'Escreva uma descrição completa do seu patch que será vista na página de detalhes. Inclua detalhes como notas de uso, registro de alterações, bugs conhecidos, planos futuros, lista de hijacks, espaço livre, e uso de RAM.'
-			]
+				'description' => 'Escreva uma descrição completa do seu patch que será vista na página de detalhes. Inclua detalhes como notas de uso, registro de alterações, bugs conhecidos, planos futuros, lista de hijacks, espaço livre, e uso de RAM.',
+			],
 		],
 		'uberasm' => [
 			'type' => [
@@ -465,27 +465,27 @@ return [
 					'level' => 'Fase (Level)',
 					'overworld' => 'Mapa (Overworld)',
 					'game_mode' => 'Game Mode',
-					'global' => 'Global'
-				]
+					'global' => 'Global',
+				],
 			],
 			'includesgfx' => [
 				'name' => 'Gráficos Inclusos',
 				'list' => 'GFX',
-				'description' => 'Quando aplicável, esta submissão de código inclui gráficos?'
+				'description' => 'Quando aplicável, esta submissão de código inclui gráficos?',
 			],
 			'includeshijack' => [
 				'name' => 'Hijack Incluso',
 				'list' => 'Hijack',
-				'description' => 'Seu código contém quaisquer hijacks ou outras mudanças internas na ROM?'
+				'description' => 'Seu código contém quaisquer hijacks ou outras mudanças internas na ROM?',
 			],
 			'featured' => [
 				'name' => 'Em Destaque',
-				'description' => 'Este é um código amplamente conhecido ou útil que deve ficar em destaque?'
+				'description' => 'Este é um código amplamente conhecido ou útil que deve ficar em destaque?',
 			],
 			'description' => [
 				'name' => 'Descrição',
-				'description' => 'A descrição deve incluir detalhes como notas de uso, registro de alterações, bugs conhecidos, se blocos necessários para uso estão incluídos, e planos futuros.'
-			]
+				'description' => 'A descrição deve incluir detalhes como notas de uso, registro de alterações, bugs conhecidos, se blocos necessários para uso estão incluídos, e planos futuros.',
+			],
 		],
 		'yimusic' => [
 			'type' => [
@@ -495,29 +495,29 @@ return [
 					'song' => 'Canção',
 					'soundtrack' => 'Trilha Sonora',
 					'sound_effect' => 'Efeito Sonoro',
-					'misc' => 'Diversos'
-				]
+					'misc' => 'Diversos',
+				],
 			],
 			'custom' => [
 				'name' => 'Custom',
-				'description' => 'A submissão é uma composição original?'
+				'description' => 'A submissão é uma composição original?',
 			],
 			'sampled' => [
 				'name' => 'Sampled',
-				'description' => 'A submissão utiliza samples customizados?'
+				'description' => 'A submissão utiliza samples customizados?',
 			],
 			'duration' => [
 				'name' => 'Duração',
-				'description' => 'Duração do pedaço de música em um loop. Necessário para todas as submissões que não são trilha sonora ou efeito sonoro. Caso contrário, deixe em branco.'
+				'description' => 'Duração do pedaço de música em um loop. Necessário para todas as submissões que não são trilha sonora ou efeito sonoro. Caso contrário, deixe em branco.',
 			],
 			'featured' => [
 				'name' => 'Em Destaque',
-				'description' => 'Ports de música ou composições que se destacaram com distinção.'
+				'description' => 'Ports de música ou composições que se destacaram com distinção.',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Escreva uma descrição para seu pedaço de música que será vista na lista de arquivos principal. Inclua detalhes como possiveis fins ou áreas onde ela poderia combinar.'
-			]
+				'description' => 'Escreva uma descrição para seu pedaço de música que será vista na lista de arquivos principal. Inclua detalhes como possiveis fins ou áreas onde ela poderia combinar.',
+			],
 		],
 		'spasm' => [
 			'type' => [
@@ -525,29 +525,29 @@ return [
 				'description' => 'Quando este código é executado?',
 				'options' => [
 					'init' => 'Init',
-					'main' => 'Main'
-				]
+					'main' => 'Main',
+				],
 			],
 			'includeshijack' => [
 				'name' => 'Hijack Incluso',
 				'list' => 'Hijack',
-				'description' => 'Seu código contém quaisquer hijacks ou outras mudanças internas na ROM?'
+				'description' => 'Seu código contém quaisquer hijacks ou outras mudanças internas na ROM?',
 			],
 			'featured' => [
 				'name' => 'Em Destaque',
-				'description' => 'Este é um código amplamente conhecido ou útil que deve ficar em destaque?'
+				'description' => 'Este é um código amplamente conhecido ou útil que deve ficar em destaque?',
 			],
 			'description' => [
 				'name' => 'Descrição',
-				'description' => 'A descrição deve conter detalhes como notas de uso, registro de alterações, bugs conhecidos, e planos futuros.'
-			]
-		]
+				'description' => 'A descrição deve conter detalhes como notas de uso, registro de alterações, bugs conhecidos, e planos futuros.',
+			],
+		],
 	],
 	'multiple' => '{description} Segure Control (Ctrl) para escolha múltipla.',
 	'binary' => [
 		'any' => 'Qualquer',
 		'yes' => 'Sim',
-		'no' => 'Não'
+		'no' => 'Não',
 	],
 	'none' => 'Nenhum',
 	'preview' => [
@@ -562,8 +562,8 @@ return [
 			'stop' => 'Parar canção',
 			'title' => 'Título da Canção',
 			'volume' => 'Volume',
-			'move' => 'Mover player'
-		]
+			'move' => 'Mover player',
+		],
 	],
-	'preview_script' => 'Habilite JavaScript para visualizar arquivos sem precisar fazer download.'
+	'preview_script' => 'Habilite JavaScript para visualizar arquivos sem precisar fazer download.',
 ];

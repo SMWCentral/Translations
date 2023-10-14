@@ -3,7 +3,7 @@
 return [
 	'title' => [
 		'moderated' => '{Section}',
-		'waiting' => ' {Section} en attente'
+		'waiting' => ' {Section} en attente',
 	],
 	'menu' => [
 		'count' => '{stats}{count}{/stats} soumissions trouvées. {stats}{start}{/stats}–{stats}{end}{/stats} affichées.', // U+2013 (EN DASH)
@@ -30,19 +30,19 @@ return [
 			'yipatches' => 'Soumettre un patch',
 			'uberasm' => 'Soumettre du UberASM',
 			'yimusic' => 'Soumettre de la musique',
-			'spasm' => 'Soumettre du SPASM'
+			'spasm' => 'Soumettre du SPASM',
 		],
-		'random' => 'Soumission aléatoire'
+		'random' => 'Soumission aléatoire',
 	],
 	'filter' => [
 		'title' => 'Filtrer',
 		'submit' => 'Filtrer',
-		'reset' => 'Effacer'
+		'reset' => 'Effacer',
 	],
 	'view' => [
 		'line' => 'Voir en tant que: {list} | {gallery}',
 		'list' => 'Liste',
-		'gallery' => 'Galerie'
+		'gallery' => 'Galerie',
 	],
 	'header' => [
 		'name' => 'Nom',
@@ -50,7 +50,7 @@ return [
 		'authors' => 'Auteurs',
 		'rating' => 'Cote',
 		'filesize' => 'Taille',
-		'downloads' => 'Télécharger'
+		'downloads' => 'Télécharger',
 	],
 	'sort' => [
 		'title' => 'Classer par: ',
@@ -62,8 +62,8 @@ return [
 			'date' => 'date',
 			'rating' => 'cote',
 			'filesize' => 'taille',
-			'downloads' => 'téléchargements'
-		]
+			'downloads' => 'téléchargements',
+		],
 	],
 	'moderation' => ' (réservé pour modération par {moderator})',
 	'list' => [
@@ -71,11 +71,11 @@ return [
 		'submitted' => 'Soumis: {datetime} par {username}',
 		'no_ratings' => 'Aucune',
 		'download' => 'Télécharger',
-		'downloads' => '{count} téléchargement|{count} téléchargements'
+		'downloads' => '{count} téléchargement|{count} téléchargements',
 	],
 	'gallery' => [
 		'added' => 'Ajouté le {datetime}',
 		'submitted' => 'Soumis le {datetime} par {username}',
-		'authors' => 'Par {authors}'
-	]
+		'authors' => 'Par {authors}',
+	],
 ];

@@ -15,7 +15,7 @@ return [
 		'staffpanel' => 'Painel da Staff',
 		'search' => 'Pesquisar…', // U+2026 (HORIZONTAL ELLIPSIS)
 		'go' => 'Go',
-		'language' => 'Idioma…' // U+2026 (HORIZONTAL ELLIPSIS)
+		'language' => 'Idioma…', // U+2026 (HORIZONTAL ELLIPSIS)
 	],
 	'menu' => [
 		'title' => 'Menu',
@@ -29,7 +29,7 @@ return [
 			'beginners' => 'Guia para Iniciantes',
 			'discord' => 'Discord',
 			'staff' => 'Staff',
-			'links' => 'Links'
+			'links' => 'Links',
 		],
 		'smw' => [
 			'name' => 'Super Mario World',
@@ -50,7 +50,7 @@ return [
 			'documents' => 'Documentos',
 			'rom_map' => 'Mapa da ROM',
 			'ram_map' => 'Mapa da RAM',
-			'hijack_map' => 'Mapa de Hijacks'
+			'hijack_map' => 'Mapa de Hijacks',
 		],
 		'yi' => [
 			'name' => 'SMW2: Yoshi\'s Island',
@@ -65,7 +65,7 @@ return [
 			'documents' => 'Documentos',
 			'rom_map' => 'Mapa da ROM',
 			'ram_map' => 'Mapa da RAM',
-			'sram_map' => 'Mapa da SRAM'
+			'sram_map' => 'Mapa da SRAM',
 		],
 		'sm64' => [
 			'name' => 'Super Mario 64',
@@ -78,14 +78,14 @@ return [
 			'textures' => 'Texturas',
 			'documents' => 'Documentos',
 			'rom_map' => 'Mapa da ROM',
-			'ram_map' => 'Mapa da RAM'
+			'ram_map' => 'Mapa da RAM',
 		],
 		'unread' => "[1] \u{A0}- {new}new{/new}|[*,*] \u{A0}- {new}{count} new{/new}", // \u{A0} is U+00A0 (NO-BREAK SPACE)
 	],
 	'header' => [
 		'users' => 'Usuários: {stats}{count}{/stats}',
 		'active_users' => '({count} ativos)',
-		'latest_user' => 'Último usuário: {user}'
+		'latest_user' => 'Último usuário: {user}',
 	],
 	'footer' => [
 		'page_views' => 'Visualizações: {stats}{count}{/stats}',
@@ -95,7 +95,7 @@ return [
 		'affiliates' => 'Afiliados (Link para nós)',
 		'queries' => 'Consultas: ~ {stats}{count}{/stats}',
 		'generate_sql_report' => 'Gerar Relatório SQL',
-		'sql_report' => 'Relatório SQL'
+		'sql_report' => 'Relatório SQL',
 	],
 	'online_user_list' => [
 		'online' => '{stats}{count}{/stats} usuário online:|{stats}{count}{/stats} usuários online:',
@@ -103,31 +103,31 @@ return [
 		'user_separator' => ', ',
 		'guests' => 'Visitantes: {stats}{count}{/stats}',
 		'stat_separator' => ' - ',
-		'bots' => 'Bots: {stats}{count}{/stats}'
+		'bots' => 'Bots: {stats}{count}{/stats}',
 	],
 	'pagination' => [
 		'title' => 'Páginas:',
 		'range' => '{start}–{end}', // U+2013 (EN DASH)
 		'asc' => 'Crescente',
-		'desc' => 'Decrescente'
+		'desc' => 'Decrescente',
 	],
 	'post' => [
 		'info' => [
 			'generic' => 'Postado em {datetime}',
 			'thread' => 'Postado em {datetime} em {thread}',
-			'recipient' => 'Enviado em {datetime} para {username}'
+			'recipient' => 'Enviado em {datetime} para {username}',
 		],
 		'unread' => 'NOVO',
 		'separator' => [
 			'info' => ' - ',
-			'menu' => ' | '
+			'menu' => ' | ',
 		],
-		'edited' => 'Última edição em {datetime} por {username}'
+		'edited' => 'Última edição em {datetime} por {username}',
 	],
 	'post_sidebar' => [
 		'last_seen' => [
 			'online' => 'Online',
-			'never' => 'Nunca'
+			'never' => 'Nunca',
 		],
 		'avatar' => 'Avatar',
 		'info' => [
@@ -137,8 +137,8 @@ return [
 			'from' => 'Local: {stats}{location}{/stats}',
 			'pronouns' => 'Pronomes: {stats}{pronouns}{/stats}',
 			'last_seen' => 'Última visita: {stats}{time}{/stats}',
-			'last_warning' => 'Última advertência: {link}{time}{/link}'
-		]
+			'last_warning' => 'Última advertência: {link}{time}{/link}',
+		],
 	],
 	'qp_menu' => [
 		'title' => 'Punishment',
@@ -149,19 +149,19 @@ return [
 		'sectionBan' => 'Section ban',
 		'disable' => 'Disable',
 		'nuke' => 'Nuke profile fields',
-		'kamikaze' => 'Kamikaze'
+		'kamikaze' => 'Kamikaze',
 	],
 	'secondary_menu' => [
-		'toggle' => 'Alternar menu'
+		'toggle' => 'Alternar menu',
 	],
 	'form' => [
 		'horizontal' => [
 			'title' => '{Title}',
-			'description' => '{Description}'
+			'description' => '{Description}',
 		],
 		'vertical' => [
 			'title' => '{Title}: ',
-			'label' => '{Title}'
-		]
-	]
+			'label' => '{Title}',
+		],
+	],
 ];

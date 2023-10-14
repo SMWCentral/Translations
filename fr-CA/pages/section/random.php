@@ -4,6 +4,6 @@ return [
 	'title' => 'Soumission aléatoire',
 	'not_found' => [
 		'title' => 'Erreur',
-		'message' => 'Aucun fichier trouvé.'
-	]
+		'message' => 'Aucun fichier trouvé.',
+	],
 ];

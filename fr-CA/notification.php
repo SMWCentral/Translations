@@ -32,7 +32,7 @@ return [
 	'post' => [
 		'title' => 'Nouvelle publication dans un fil que vous surveillez!',
 		'known' => '{username} a répondu à {stats}{link}{title}{/link}{/stats}. Il pourrait y avoir plus de publications après celle-ci.',
-		'restricted' => '{username} a répondu à un fil restreint que vous surveillez.'
+		'restricted' => '{username} a répondu à un fil restreint que vous surveillez.',
 	],
 	'tweakApproved' => [
 		'title' => 'Votre ajustement a été approuvé!',

@@ -8,10 +8,10 @@ return [
 	'avatar' => 'Avatar',
 	'not_found' => [
 		'title' => 'Erro',
-		'message' => 'Comentário não encontrado.'
+		'message' => 'Comentário não encontrado.',
 	],
 	'success' => [
 		'title' => 'Successo',
-		'message' => 'Comentário excluido.'
-	]
+		'message' => 'Comentário excluido.',
+	],
 ];

@@ -7,21 +7,21 @@ return [
 		'paragraph' => 'SMW Central is the largest ROM hacking community on the internet, and the gathering place for all the resources you need to create your own ROM hack. We offer a large selection of completed hacks as well, ready for you to play! Traditionally SMW Central focuses on hacking {em}Super Mario World{/em}, but over the years we\'ve collected a ton of resources and hacks involving other games, too.',
 		'register' => 'Our community is ever-growing — {link}sign up now{/link} and be part of it!',
 		'beginners_title' => 'Getting started: How to play and make hacks',
-		'beginners' => 'Need help playing the hacks we host? Not sure what “ROM hacking” is in the first place? Our {link}Beginners\' Guide{/link} will gladly show you around.' // U+201C (LEFT DOUBLE QUOTATION MARK) and U+201D (RIGHT DOUBLE QUOTATION MARK)
+		'beginners' => 'Need help playing the hacks we host? Not sure what “ROM hacking” is in the first place? Our {link}Beginners\' Guide{/link} will gladly show you around.', // U+201C (LEFT DOUBLE QUOTATION MARK) and U+201D (RIGHT DOUBLE QUOTATION MARK)
 	],
 	'files' => [
 		'title' => [
 			'new' => 'Latest Content',
-			'featured' => 'Content of the Day'
+			'featured' => 'Content of the Day',
 		],
 		'info' => '{Submission} | Submitted by {username} on {date}',
-		'read_more' => '(read more…)' // U+2026 (HORIZONTAL ELLIPSIS)
+		'read_more' => '(read more…)', // U+2026 (HORIZONTAL ELLIPSIS)
 	],
 	'news' => [
 		'title' => 'Recent News',
 		'sticky' => 'Sticky:',
 		'info' => 'Posted by {username} on {date}',
-		'all' => 'All news'
+		'all' => 'All news',
 	],
 	'calendar' => [
 		'title' => 'Calendar',
@@ -35,7 +35,7 @@ return [
 		'period' => '{from} – {to}', // U+2013 (EN DASH)
 		'birthdays' => 'Birthday list',
 		'empty_today' => 'There are no events today.',
-		'empty_on' => 'There are no events on this day.'
+		'empty_on' => 'There are no events on this day.',
 	],
 	'submission' => [
 		'tools' => 'Tool',
@@ -55,6 +55,6 @@ return [
 		'spasm' => 'YI | SPASM',
 		'sm64hacks' => 'SM64 | Hack',
 		'sm64music' => 'SM64 | Music',
-		'sm64textures' => 'SM64 | Texture'
-	]
+		'sm64textures' => 'SM64 | Texture',
+	],
 ];

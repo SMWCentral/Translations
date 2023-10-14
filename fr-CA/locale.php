@@ -3,16 +3,16 @@
 return [
 	'number' => [
 		'decimal' => ',',
-		'thousands' => ' '
+		'thousands' => ' ',
 	],
 	'list' => [
 		'two' => ' et ',
 		'many' => ', ',
-		'last' => ' et '
+		'last' => ' et ',
 	],
 	'calendar' => [
 		'first_day' => 0,
 		'short_days' => ['Di', 'Lu', 'Ma', 'Me', 'Je', 'Ve', 'Sa'],
-		'long_days' => ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi']
-	]
+		'long_days' => ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'],
+	],
 ];

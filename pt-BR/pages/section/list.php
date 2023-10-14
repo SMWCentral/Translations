@@ -3,7 +3,7 @@
 return [
 	'title' => [
 		'moderated' => '{Section}',
-		'waiting' => 'Em espera {Section}'
+		'waiting' => 'Em espera {Section}',
 	],
 	'menu' => [
 		'count' => '{stats}{count}{/stats} submissões encontradas. Mostrando {stats}{start}{/stats}–{stats}{end}{/stats}.', // U+2013 (EN DASH)
@@ -30,18 +30,18 @@ return [
 			'yipatches' => 'Submeter um patch',
 			'uberasm' => 'Submeter UberASM',
 			'yimusic' => 'Submeter música',
-			'spasm' => 'Submeter SPASM'
+			'spasm' => 'Submeter SPASM',
 		],
-		'random' => 'Mostrar aleatório'
+		'random' => 'Mostrar aleatório',
 	],
 	'filter' => [
 		'title' => 'Filtrar',
-		'submit' => 'Filtrar'
+		'submit' => 'Filtrar',
 	],
 	'view' => [
 		'line' => 'Ver como: {list} | {gallery}',
 		'list' => 'Lista',
-		'gallery' => 'Galeria'
+		'gallery' => 'Galeria',
 	],
 	'header' => [
 		'name' => 'Nome',
@@ -49,7 +49,7 @@ return [
 		'authors' => 'Autores',
 		'rating' => 'Avaliação',
 		'filesize' => 'Tamanho',
-		'downloads' => 'Download'
+		'downloads' => 'Download',
 	],
 	'sort' => [
 		'title' => 'Classificar por: ',
@@ -61,8 +61,8 @@ return [
 			'date' => 'data',
 			'rating' => 'avaliação',
 			'filesize' => 'tamanho',
-			'downloads' => 'downloads'
-		]
+			'downloads' => 'downloads',
+		],
 	],
 	'moderation' => ' (sendo moderado por {moderator})',
 	'list' => [
@@ -70,10 +70,10 @@ return [
 		'submitted' => 'Submetido: {datetime} por {username}',
 		'no_ratings' => 'Nenhuma',
 		'download' => 'Download',
-		'downloads' => '{count} download|{count} downloads'
+		'downloads' => '{count} download|{count} downloads',
 	],
 	'gallery' => [
 		'added' => 'Adicionado em {datetime}',
-		'submitted' => 'Submetido em {datetime} por {username}'
-	]
+		'submitted' => 'Submetido em {datetime} por {username}',
+	],
 ];

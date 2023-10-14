@@ -5,5 +5,5 @@ return [
 	'info' => 'Posted by {username} on {date}',
 	'new' => 'New article',
 	'edit' => 'Edit',
-	'delete' => 'Delete'
+	'delete' => 'Delete',
 ];

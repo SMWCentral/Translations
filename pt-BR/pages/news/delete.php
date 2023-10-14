@@ -8,6 +8,6 @@ return [
 	'info' => 'Postado por {username} em {date}',
 	'success' => [
 		'title' => 'Successo',
-		'message' => 'Artigo excluído.'
-	]
+		'message' => 'Artigo excluído.',
+	],
 ];

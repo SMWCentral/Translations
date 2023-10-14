@@ -3,16 +3,16 @@
 return [
 	'title' => [
 		'notice' => 'Avis #{id}',
-		'infraction' => 'Infraction #{id}'
+		'infraction' => 'Infraction #{id}',
 	],
 	'breadcrumbs' => '{profile}Profil de {username}{/profile} → {list}Infractions{/list} → #{id}',
 	'action' => [
 		'edit' => 'Modifier',
-		'delete' => 'Supprimer'
+		'delete' => 'Supprimer',
 	],
 	'info' => [
 		'new' => 'Pas encore vu',
-		'generic' => 'Émis le {datetime}'
+		'generic' => 'Émis le {datetime}',
 	],
 	'field' => [
 		'user' => 'Utilisateur:',
@@ -23,7 +23,7 @@ return [
 		'date' => 'Date:',
 		'seen' => 'Vu:',
 		'issuer' => 'Émetteur:',
-		'punishment' => 'Punition:'
+		'punishment' => 'Punition:',
 	],
-	'not_seen' => 'Pas encore vu'
+	'not_seen' => 'Pas encore vu',
 ];

@@ -4,14 +4,14 @@ return [
 	'title' => 'Pin Comment',
 	'not_found' => [
 		'title' => 'Error',
-		'message' => 'Comment not found.'
+		'message' => 'Comment not found.',
 	],
 	'pinned' => [
 		'title' => 'Success',
-		'message' => 'Comment pinned.'
+		'message' => 'Comment pinned.',
 	],
 	'unpinned' => [
 		'title' => 'Success',
-		'message' => 'Comment unpinned.'
-	]
+		'message' => 'Comment unpinned.',
+	],
 ];

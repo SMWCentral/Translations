@@ -5,14 +5,14 @@ return [
 		'generic' => 'Forums',
 		'index' => 'Forum Index',
 		'forum' => '{forum}',
-		'bonus_game' => 'Error'
+		'bonus_game' => 'Error',
 	],
 	'stats' => [
 		'posts' => '{stats}{count}{/stats} post|{stats}{count}{/stats} posts',
 		'threads' => '{stats}{count}{/stats} thread|{stats}{count}{/stats} threads',
 		'posts_today' => 'Posts today: {stats}{count}{/stats}',
 		'posts_hour' => 'Posts this hour: {stats}{count}{/stats}',
-		'line' => '{posts} in {threads} | {posts_today} | {posts_hour}'
+		'line' => '{posts} in {threads} | {posts_today} | {posts_hour}',
 	],
 	'action' => [
 		'edit' => 'Edit Forum',
@@ -23,18 +23,18 @@ return [
 		'mark_tagged_read' => 'Mark Tagged Threads Read',
 		'new_thread' => 'New Thread',
 		'new_tagged_thread' => 'New Thread with Tag',
-		'link' => 'Link'
+		'link' => 'Link',
 	],
 	'mark_all_read' => 'Mark all forums read',
 	'watched_threads' => 'Watched threads',
 	'viewing_tagged' => 'Currently only viewing threads tagged as {tag}.',
 	'breadcrumbs' => [
 		'index' => 'Forum Index',
-		'tagged' => 'Tagged Threads'
+		'tagged' => 'Tagged Threads',
 	],
 	'category' => [
 		'forums' => 'Forums',
-		'subforums' => 'Subforums'
+		'subforums' => 'Subforums',
 	],
 	'last_post_info' => '{date}{br}by {user} {link}',
 	'forum' => [
@@ -45,7 +45,7 @@ return [
 		'new_posts_sub' => 'New posts in subforums',
 		'no_new_posts' => 'No new posts',
 		'moderated_by' => 'Moderated by:',
-		'no_posts' => 'No posts.'
+		'no_posts' => 'No posts.',
 	],
 	'threads' => [
 		'title' => 'Thread title',
@@ -59,7 +59,7 @@ return [
 			'moved' => 'Phantom thread',
 			'open_new' => 'New posts',
 			'closed_new' => 'Thread closed, new posts',
-			'moved_new' => 'New posts'
+			'moved_new' => 'New posts',
 		],
 		'poll' => 'poll',
 		'first_unread' => 'Go to first unread post',
@@ -69,30 +69,30 @@ return [
 		'watching' => 'You\'re watching this thread',
 		'nsfw' => 'Not safe for work',
 		'page' => 'Page',
-		'none' => 'There are no threads in this forum.'
+		'none' => 'There are no threads in this forum.',
 	],
 	'not_found' => [
 		'title' => 'Error',
-		'message' => 'The requested forum either does not exist or you don\'t have permission to view it.'
+		'message' => 'The requested forum either does not exist or you don\'t have permission to view it.',
 	],
 	'bad_token' => [
 		'title' => 'Error',
-		'message' => 'Incorrect token.'
+		'message' => 'Incorrect token.',
 	],
 	'read_all' => [
 		'title' => 'Success',
-		'message' => 'All forums have been marked read.'
+		'message' => 'All forums have been marked read.',
 	],
 	'read_forum' => [
 		'title' => 'Success',
-		'message' => '{bold}{forum}{/bold} has been marked read.'
+		'message' => '{bold}{forum}{/bold} has been marked read.',
 	],
 	'read_tag_success' => [
 		'title' => 'Success',
-		'message' => 'The tag {bold}{tag}{/bold} has been marked read.'
+		'message' => 'The tag {bold}{tag}{/bold} has been marked read.',
 	],
 	'read_tag_error' => [
 		'title' => 'Error',
-		'message' => 'The tag couldn\'t be marked read.'
-	]
+		'message' => 'The tag couldn\'t be marked read.',
+	],
 ];

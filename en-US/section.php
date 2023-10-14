@@ -19,29 +19,29 @@ return [
 		'yipatches' => 'YI Patches',
 		'uberasm' => 'UberASM Repository',
 		'yimusic' => 'YI Music',
-		'spasm' => 'SPASM Repository'
+		'spasm' => 'SPASM Repository',
 	],
 	'field' => [
 		'common' => [
 			'name' => 'name',
 			'author' => [
 				'name' => 'author',
-				'description' => 'Up to 5, comma separated.'
+				'description' => 'Up to 5, comma separated.',
 			],
 			'tags' => [
 				'name' => 'tags',
-				'description' => 'Up to 5, comma separated. Prefix a tag with + to require multiple (+space,+planet). Prefix with - to exclude (-planet).'
-			]
+				'description' => 'Up to 5, comma separated. Prefix a tag with + to require multiple (+space,+planet). Prefix with - to exclude (-planet).',
+			],
 		],
 		'smwhacks' => [
 			'demo' => 'Demo',
 			'featured' => [
 				'name' => 'Featured',
-				'description' => 'Controls featured status of a hack.'
+				'description' => 'Controls featured status of a hack.',
 			],
 			'length' => [
 				'name' => 'Length',
-				'description' => 'Number of level exits in the hack.'
+				'description' => 'Number of level exits in the hack.',
 			],
 			'difficulty' => [
 				'name' => 'Type',
@@ -55,10 +55,10 @@ return [
 					'kaizo_expert' => 'Kaizo: Expert',
 					'kaizo_hard' => 'Tool-Assisted: Kaizo',
 					'pit' => 'Tool-Assisted: Pit',
-					'troll' => 'Misc.: Troll'
-				]
+					'troll' => 'Misc.: Troll',
+				],
 			],
-			'description' => 'Description'
+			'description' => 'Description',
 		],
 		'sm64hacks' => [
 			'difficulty' => [
@@ -67,16 +67,16 @@ return [
 					'easy' => 'Easy',
 					'intermediate' => 'Intermediate',
 					'hard' => 'Hard',
-					'kaizo' => 'Kaizo'
-				]
+					'kaizo' => 'Kaizo',
+				],
 			],
 			'demo' => 'Demo',
 			'length' => [
 				'name' => 'Length',
-				'description' => 'Number of stars in the hack.'
+				'description' => 'Number of stars in the hack.',
 			],
 			'description' => 'Description',
-			'video' => 'Video Link'
+			'video' => 'Video Link',
 		],
 		'sm64music' => [
 			'nlist' => [
@@ -119,24 +119,24 @@ return [
 					'nlst_34' => 'NLST 34 (Bob-Omb Battlefield)',
 					'nlst_35' => 'NLST 35 (Ending)',
 					'nlst_36' => 'NLST 36 (File Select)',
-					'nlst_37' => 'NLST 37 (Credits)'
-				]
+					'nlst_37' => 'NLST 37 (Credits)',
+				],
 			],
-			'description' => 'Description'
+			'description' => 'Description',
 		],
 		'sm64textures' => [
 			'type' => [
 				'name' => 'Type',
 				'options' => [
 					'original' => 'Original',
-					'ripped' => 'Ripped'
-				]
+					'ripped' => 'Ripped',
+				],
 			],
 			'amount' => [
 				'name' => 'No. of Textures',
-				'description' => 'Amount of textures in the pack.'
+				'description' => 'Amount of textures in the pack.',
 			],
-			'description' => 'Description'
+			'description' => 'Description',
 		],
 		'smwsprites' => [
 			'tool' => [
@@ -147,8 +147,8 @@ return [
 					'giepy' => 'GIEPY',
 					'romis_spritetool' => 'Romi\'s Spritetool',
 					'overworld_spritetool' => 'Overworld Spritetool',
-					'other' => 'Other'
-				]
+					'other' => 'Other',
+				],
 			],
 			'type' => [
 				'name' => 'Type',
@@ -161,36 +161,36 @@ return [
 					'cluster' => 'Cluster',
 					'extended' => 'Extended',
 					'run-once' => 'Run-Once',
-					'other' => 'Other'
-				]
+					'other' => 'Other',
+				],
 			],
 			'dynamic' => [
 				'name' => 'Dynamic',
 				'list' => 'Dyn.',
-				'description' => 'Is this a dynamic sprite?'
+				'description' => 'Is this a dynamic sprite?',
 			],
 			'disassembly' => [
 				'name' => 'Disassembly',
 				'list' => 'Dis.',
-				'description' => 'Is this a disassembly?'
+				'description' => 'Is this a disassembly?',
 			],
 			'includesgfx' => [
 				'name' => 'Includes GFX',
 				'list' => 'GFX',
-				'description' => 'Where applicable, does this sprite submission include graphics?'
+				'description' => 'Where applicable, does this sprite submission include graphics?',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'The description should include details such as usage notes, changelog, known bugs, whether required blocks for use are included, or future plans.'
-			]
+				'description' => 'The description should include details such as usage notes, changelog, known bugs, whether required blocks for use are included, or future plans.',
+			],
 		],
 		'smwgraphics' => [
 			'type' => [
 				'name' => 'Type',
 				'options' => [
 					'original' => 'Original',
-					'ripped' => 'Ripped'
-				]
+					'ripped' => 'Ripped',
+				],
 			],
 			'purpose' => [
 				'name' => 'Purpose',
@@ -203,8 +203,8 @@ return [
 					'overworld' => 'Overworld',
 					'font' => 'Font',
 					'miscellaneous' => 'Miscellaneous',
-					'graphics_hack' => 'Graphics Hack'
-				]
+					'graphics_hack' => 'Graphics Hack',
+				],
 			],
 			'slots' => [
 				'name' => 'Slots Used',
@@ -227,8 +227,8 @@ return [
 					'lg2' => 'LG2',
 					'lg3' => 'LG3',
 					'lg4' => 'LG4',
-					'an2' => 'AN2'
-				]
+					'an2' => 'AN2',
+				],
 			],
 			'palettes' => [
 				'name' => 'Palette Row(s) Used',
@@ -248,33 +248,33 @@ return [
 					'pC' => 'C',
 					'pD' => 'D',
 					'pE' => 'E',
-					'pF' => 'F'
-				]
+					'pF' => 'F',
+				],
 			],
-			'description' => 'Description'
+			'description' => 'Description',
 		],
 		'yihacks' => [
 			'demo' => 'Demo',
 			'length' => [
 				'name' => 'Length',
-				'description' => 'Number of levels in the hack.'
+				'description' => 'Number of levels in the hack.',
 			],
-			'description' => 'Description'
+			'description' => 'Description',
 		],
 		'smwblocks' => [
 			'actas' => [
 				'name' => 'Act As',
-				'description' => 'What tile should this block act like?'
+				'description' => 'What tile should this block act like?',
 			],
 			'includesgfx' => [
 				'name' => 'Includes GFX',
 				'list' => 'GFX',
-				'description' => 'Where applicable, does this block submission include graphics?'
+				'description' => 'Where applicable, does this block submission include graphics?',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Type a description of your block that will be seen on the file page. Include details such as usage notes, changelog, known bugs, whether required patches or sprites for use are included, or future plans.'
-			]
+				'description' => 'Type a description of your block that will be seen on the file page. Include details such as usage notes, changelog, known bugs, whether required patches or sprites for use are included, or future plans.',
+			],
 		],
 		'smwpatches' => [
 			'tool' => [
@@ -283,18 +283,18 @@ return [
 				'options' => [
 					'xkas' => 'xkas',
 					'asar' => 'Asar',
-					'both' => 'xkas or Asar'
-				]
+					'both' => 'xkas or Asar',
+				],
 			],
 			'freespace' => [
 				'name' => 'Requires Free Space',
 				'list' => 'FS',
-				'description' => 'Does this patch require free space?'
+				'description' => 'Does this patch require free space?',
 			],
 			'bugfix' => [
 				'name' => 'Bug Fix',
 				'list' => 'Fix',
-				'description' => 'Does this patch fix bugs in the original Super Mario World?'
+				'description' => 'Does this patch fix bugs in the original Super Mario World?',
 			],
 			'featured' => [
 				'name' => 'Featured',
@@ -302,13 +302,13 @@ return [
 				'options' => [
 					'no' => 'No',
 					'yes' => 'Yes',
-					'essential' => 'Essential'
-				]
+					'essential' => 'Essential',
+				],
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Type a full description of your patch that will be seen on the details page. Include details such as usage notes, changelog, known bugs, future plans, and/or a list of hijacks, free space, and RAM usage.'
-			]
+				'description' => 'Type a full description of your patch that will be seen on the details page. Include details such as usage notes, changelog, known bugs, future plans, and/or a list of hijacks, free space, and RAM usage.',
+			],
 		],
 		'tools' => [
 			'os' => [
@@ -319,8 +319,8 @@ return [
 					'windows' => 'Windows',
 					'mac_os' => 'Mac OS X',
 					'linux' => 'Linux',
-					'other' => 'Other'
-				]
+					'other' => 'Other',
+				],
 			],
 			'platforms' => [
 				'name' => 'Platforms',
@@ -328,8 +328,8 @@ return [
 				'options' => [
 					'general' => 'General',
 					'snes' => 'SNES',
-					'n64' => 'N64'
-				]
+					'n64' => 'N64',
+				],
 			],
 			'games' => [
 				'name' => 'Games',
@@ -338,13 +338,13 @@ return [
 					'general' => 'General',
 					'smw' => 'SMW',
 					'yi' => 'YI',
-					'sm64' => 'SM64'
-				]
+					'sm64' => 'SM64',
+				],
 			],
 			'source' => [
 				'name' => 'Source Available',
 				'list' => 'Src.',
-				'description' => 'Is the source code for the tool included in its archive or available somewhere else?'
+				'description' => 'Is the source code for the tool included in its archive or available somewhere else?',
 			],
 			'featured' => [
 				'name' => 'Featured',
@@ -352,14 +352,14 @@ return [
 				'options' => [
 					'no' => 'No',
 					'yes' => 'Yes',
-					'essential' => 'Essential'
-				]
+					'essential' => 'Essential',
+				],
 			],
 			'website' => 'Website',
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Type a full description of your tool that will be seen on the details page. Include details such as usage notes, changelog, known bugs and future plans.'
-			]
+				'description' => 'Type a full description of your tool that will be seen on the details page. Include details such as usage notes, changelog, known bugs and future plans.',
+			],
 		],
 		'documents' => [
 			'platforms' => [
@@ -368,8 +368,8 @@ return [
 				'options' => [
 					'general' => 'General',
 					'snes' => 'SNES',
-					'n64' => 'N64'
-				]
+					'n64' => 'N64',
+				],
 			],
 			'games' => [
 				'name' => 'Games',
@@ -378,16 +378,16 @@ return [
 					'general' => 'General',
 					'smw' => 'SMW',
 					'yi' => 'YI',
-					'sm64' => 'SM64'
-				]
+					'sm64' => 'SM64',
+				],
 			],
 			'type' => [
 				'name' => 'Type',
 				'description' => 'Does this submission serve as documentation, or is it a tutorial?',
 				'options' => [
 					'documentation' => 'Documentation',
-					'tutorial' => 'Tutorial'
-				]
+					'tutorial' => 'Tutorial',
+				],
 			],
 			'language' => [
 				'name' => 'Language',
@@ -400,18 +400,18 @@ return [
 					'french' => 'French',
 					'german' => 'German',
 					'italian' => 'Italian',
-					'other' => 'Other'
-				]
+					'other' => 'Other',
+				],
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Type a description of your document that will be seen in full on the details page. Include details such as table of contents, changelog, and future plans.'
-			]
+				'description' => 'Type a description of your document that will be seen in full on the details page. Include details such as table of contents, changelog, and future plans.',
+			],
 		],
 		'smwmusic' => [
 			'size' => [
 				'name' => 'Insert Size',
-				'description' => 'Insert size of the piece of music in hex. Required only for Songs and Misc. submissions - otherwise, leave this alone. Omit the 0x when entering the insert size, as the site generates it automatically.'
+				'description' => 'Insert size of the piece of music in hex. Required only for Songs and Misc. submissions - otherwise, leave this alone. Omit the 0x when entering the insert size, as the site generates it automatically.',
 			],
 			'type' => [
 				'name' => 'Type',
@@ -420,8 +420,8 @@ return [
 					'song' => 'Song',
 					'soundtrack' => 'Soundtrack',
 					'sound_effect' => 'Sound Effect',
-					'misc' => 'Misc.'
-				]
+					'misc' => 'Misc.',
+				],
 			],
 			'samples' => [
 				'name' => 'Sample Usage',
@@ -430,8 +430,8 @@ return [
 				'options' => [
 					'none' => 'None',
 					'light' => 'Light',
-					'many' => 'Many'
-				]
+					'many' => 'Many',
+				],
 			],
 			'source' => [
 				'name' => 'Source',
@@ -439,32 +439,32 @@ return [
 				'options' => [
 					'port' => 'Port',
 					'remix' => 'Remix',
-					'original' => 'Original'
-				]
+					'original' => 'Original',
+				],
 			],
 			'duration' => [
 				'name' => 'Duration',
-				'description' => 'Duration of the piece of music in one loop. Required only for Songs and Misc. submissions - otherwise, leave this alone.'
+				'description' => 'Duration of the piece of music in one loop. Required only for Songs and Misc. submissions - otherwise, leave this alone.',
 			],
 			'featured' => [
 				'name' => 'Featured',
-				'description' => 'Music ports or compositions which have stood out with distinction.'
+				'description' => 'Music ports or compositions which have stood out with distinction.',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Type a description of your piece of music that will be seen on the main file list. Include details such as possible purposes or areas it could potentially fit, as well as any necessary information that must be made known about the submission.'
-			]
+				'description' => 'Type a description of your piece of music that will be seen on the main file list. Include details such as possible purposes or areas it could potentially fit, as well as any necessary information that must be made known about the submission.',
+			],
 		],
 		'sramdatabase' => [
 			'hid' => [
 				'name' => 'Hack link',
 				'list' => 'Hack link',
-				'description' => 'This field should contain a link to the hack the SRAM is for.'
+				'description' => 'This field should contain a link to the hack the SRAM is for.',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Say what level the SRAM is saved on.'
-			]
+				'description' => 'Say what level the SRAM is saved on.',
+			],
 		],
 		'brrsamples' => [
 			'collection' => [
@@ -472,37 +472,37 @@ return [
 				'description' => 'Is the submission a single sample or collection of samples?',
 				'options' => [
 					'compilation' => 'Compilation',
-					'single' => 'Single'
-				]
+					'single' => 'Single',
+				],
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Describe your submission.'
-			]
+				'description' => 'Describe your submission.',
+			],
 		],
 		'yipatches' => [
 			'freespace' => [
 				'name' => 'Requires Free Space',
 				'list' => 'FS',
-				'description' => 'Does this patch require free space?'
+				'description' => 'Does this patch require free space?',
 			],
 			'bugfix' => [
 				'name' => 'Bug Fix',
 				'list' => 'Fix',
-				'description' => 'Does this patch fix bugs in the original Yoshi\'s Island?'
+				'description' => 'Does this patch fix bugs in the original Yoshi\'s Island?',
 			],
 			'featured' => [
 				'name' => 'Featured',
 				'description' => 'Is this a widely recognized or useful patch that should be featured?',
 				'options' => [
 					'no' => 'No',
-					'yes' => 'Yes'
-				]
+					'yes' => 'Yes',
+				],
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Type a full description of your patch that will be seen on the details page. Include details such as usage notes, changelog, known bugs, future plans, and/or a list of hijacks, free space, and RAM usage.'
-			]
+				'description' => 'Type a full description of your patch that will be seen on the details page. Include details such as usage notes, changelog, known bugs, future plans, and/or a list of hijacks, free space, and RAM usage.',
+			],
 		],
 		'uberasm' => [
 			'type' => [
@@ -512,27 +512,27 @@ return [
 					'level' => 'Level',
 					'overworld' => 'Overworld',
 					'game_mode' => 'Game Mode',
-					'global' => 'Global'
-				]
+					'global' => 'Global',
+				],
 			],
 			'includesgfx' => [
 				'name' => 'Includes GFX',
 				'list' => 'GFX',
-				'description' => 'Where applicable, does this code submission include graphics?'
+				'description' => 'Where applicable, does this code submission include graphics?',
 			],
 			'includeshijack' => [
 				'name' => 'Includes Hijack',
 				'list' => 'Hijack',
-				'description' => 'Does your code contain any hijacks or other internal changes to the ROM?'
+				'description' => 'Does your code contain any hijacks or other internal changes to the ROM?',
 			],
 			'featured' => [
 				'name' => 'Featured',
-				'description' => 'Is this a widely recognized or useful code that should be featured?'
+				'description' => 'Is this a widely recognized or useful code that should be featured?',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'The description should include details such as usage notes, changelog, known bugs, whether required blocks for use are included, and future plans.'
-			]
+				'description' => 'The description should include details such as usage notes, changelog, known bugs, whether required blocks for use are included, and future plans.',
+			],
 		],
 		'yimusic' => [
 			'type' => [
@@ -542,29 +542,29 @@ return [
 					'song' => 'Song',
 					'soundtrack' => 'Soundtrack',
 					'sound_effect' => 'Sound Effect',
-					'misc' => 'Misc.'
-				]
+					'misc' => 'Misc.',
+				],
 			],
 			'custom' => [
 				'name' => 'Custom',
-				'description' => 'Is the submission an original composition?'
+				'description' => 'Is the submission an original composition?',
 			],
 			'sampled' => [
 				'name' => 'Sampled',
-				'description' => 'Does the submission use custom samples?'
+				'description' => 'Does the submission use custom samples?',
 			],
 			'duration' => [
 				'name' => 'Duration',
-				'description' => 'Duration of the piece of music in one loop. Required for all non-soundtrack/sound effect submissions. Otherwise, leave this alone.'
+				'description' => 'Duration of the piece of music in one loop. Required for all non-soundtrack/sound effect submissions. Otherwise, leave this alone.',
 			],
 			'featured' => [
 				'name' => 'Featured',
-				'description' => 'Music ports or compositions which have stood out with distinction.'
+				'description' => 'Music ports or compositions which have stood out with distinction.',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Type a description of your piece of music that will be seen on the main file list. Include details such as possible purposes or areas it could potentially fit.'
-			]
+				'description' => 'Type a description of your piece of music that will be seen on the main file list. Include details such as possible purposes or areas it could potentially fit.',
+			],
 		],
 		'spasm' => [
 			'type' => [
@@ -572,29 +572,29 @@ return [
 				'description' => 'When is this code executed?',
 				'options' => [
 					'init' => 'Init',
-					'main' => 'Main'
-				]
+					'main' => 'Main',
+				],
 			],
 			'includeshijack' => [
 				'name' => 'Includes Hijack',
 				'list' => 'Hijack',
-				'description' => 'Does your code contain any hijacks or other internal changes to the ROM?'
+				'description' => 'Does your code contain any hijacks or other internal changes to the ROM?',
 			],
 			'featured' => [
 				'name' => 'Featured',
-				'description' => 'Is this a widely recognized or useful code that should be featured?'
+				'description' => 'Is this a widely recognized or useful code that should be featured?',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'The description should include details such as usage notes, changelog, known bugs, and future plans.'
-			]
-		]
+				'description' => 'The description should include details such as usage notes, changelog, known bugs, and future plans.',
+			],
+		],
 	],
 	'multiple' => '{description} Hold control to select multiple.',
 	'binary' => [
 		'any' => 'Any',
 		'yes' => 'Yes',
-		'no' => 'No'
+		'no' => 'No',
 	],
 	'none' => 'None',
 	'preview' => [
@@ -610,8 +610,8 @@ return [
 			'skip' => 'Skip song',
 			'title' => 'Song Title',
 			'volume' => 'Volume',
-			'move' => 'Move player'
-		]
+			'move' => 'Move player',
+		],
 	],
-	'preview_script' => 'Turn on JavaScript to preview files without downloading them.'
+	'preview_script' => 'Turn on JavaScript to preview files without downloading them.',
 ];

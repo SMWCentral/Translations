@@ -4,7 +4,7 @@ return [
 	'title' => '{Tweak} - Ajustements pour {game}',
 	'breadcrumbs' => [
 		'moderated' => '{link}Ajustements pour {game}{/link} → {tweak}', // U+2192 (RIGHTWARDS ARROW)
-		'waiting' => '{link}Ajustements pour {game} en attente{/link} → {tweak}' // U+2192 (RIGHTWARDS ARROW)
+		'waiting' => '{link}Ajustements pour {game} en attente{/link} → {tweak}', // U+2192 (RIGHTWARDS ARROW)
 	],
 	'action' => [
 		'submit_update' => 'Soumettre une mise à jour',
@@ -12,7 +12,7 @@ return [
 		'delete' => 'Supprimer',
 		'approve' => 'Approuver',
 		'reject' => 'Rejeter',
-		'link' => 'Lien'
+		'link' => 'Lien',
 	],
 	'details' => 'Détails de l\'ajustement',
 	'field' => [
@@ -25,7 +25,7 @@ return [
 		'submission_notes' => 'Notes à propos de la soumission:',
 		'submitted' => [
 			'name' => 'Soumis le:',
-			'content' => '{date} par {user}'
-		]
-	]
+			'content' => '{date} par {user}',
+		],
+	],
 ];

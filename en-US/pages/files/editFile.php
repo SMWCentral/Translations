@@ -7,17 +7,17 @@ return [
 		'title' => 'Edit',
 		'name' => [
 			'title' => 'name',
-			'description' => 'Renaming a file may break existing links to it.'
+			'description' => 'Renaming a file may break existing links to it.',
 		],
 		'unlisted' => 'unlisted',
-		'submit' => 'Save'
+		'submit' => 'Save',
 	],
 	'success' => [
 		'title' => 'Success',
-		'message' => 'Changes saved.'
+		'message' => 'Changes saved.',
 	],
 	'not_found' => [
 		'title' => 'Error',
-		'message' => 'File not found.'
-	]
+		'message' => 'File not found.',
+	],
 ];

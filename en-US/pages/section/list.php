@@ -3,7 +3,7 @@
 return [
 	'title' => [
 		'moderated' => '{Section}',
-		'waiting' => 'Waiting {Section}'
+		'waiting' => 'Waiting {Section}',
 	],
 	'menu' => [
 		'count' => '{stats}{count}{/stats} submissions found. Showing {stats}{start}{/stats}–{stats}{end}{/stats}.', // U+2013 (EN DASH)
@@ -30,20 +30,20 @@ return [
 			'yipatches' => 'Submit a patch',
 			'uberasm' => 'Submit UberASM',
 			'yimusic' => 'Submit music',
-			'spasm' => 'Submit SPASM'
+			'spasm' => 'Submit SPASM',
 		],
-		'random' => 'Show random'
+		'random' => 'Show random',
 	],
 	'filter' => [
 		'title' => 'Filter',
 		'submit' => 'Filter',
-		'reset' => 'Clear'
+		'reset' => 'Clear',
 	],
 	'view' => [
 		'line' => 'View as: {list} | {gallery}',
 		'list' => 'List',
 		'gallery' => 'Gallery',
-		'radio' => 'Radio'
+		'radio' => 'Radio',
 	],
 	'header' => [
 		'name' => 'Name',
@@ -51,7 +51,7 @@ return [
 		'authors' => 'Authors',
 		'rating' => 'Rating',
 		'filesize' => 'Size',
-		'downloads' => 'Download'
+		'downloads' => 'Download',
 	],
 	'sort' => [
 		'title' => 'Sort by: ',
@@ -63,8 +63,8 @@ return [
 			'date' => 'date',
 			'rating' => 'rating',
 			'filesize' => 'size',
-			'downloads' => 'downloads'
-		]
+			'downloads' => 'downloads',
+		],
 	],
 	'moderation' => ' (being moderated by {moderator})',
 	'list' => [
@@ -73,11 +73,11 @@ return [
 		'filter' => 'Filter by "{value}"',
 		'no_ratings' => 'None',
 		'download' => 'Download',
-		'downloads' => '{count} download|{count} downloads'
+		'downloads' => '{count} download|{count} downloads',
 	],
 	'gallery' => [
 		'added' => 'Added on {datetime}',
 		'submitted' => 'Submitted on {datetime} by {username}',
-		'authors' => 'By {authors}'
-	]
+		'authors' => 'By {authors}',
+	],
 ];

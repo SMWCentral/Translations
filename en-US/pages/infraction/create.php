@@ -8,7 +8,7 @@ return [
 		'forumBan' => 'Issue Forum Ban to {username}',
 		'sectionBan' => 'Issue Section Ban to {username}',
 		'nuke' => 'Nuke Profile Fields of {username}',
-		'disable' => 'Disable {username}'
+		'disable' => 'Disable {username}',
 	],
 	'form' => [
 		'editor' => 'Infraction',
@@ -18,15 +18,15 @@ return [
 		'summary' => [
 			'title' => 'summary',
 			'description' => 'Brief reason for the infraction. {bold}Public{/bold}.',
-			'notice' => 'Topic of the notice. Shown to the user.'
+			'notice' => 'Topic of the notice. Shown to the user.',
 		],
 		'message' => [
 			'title' => 'message',
-			'description' => 'Shown to the user.'
+			'description' => 'Shown to the user.',
 		],
 		'notes' => [
 			'title' => 'notes',
-			'description' => 'Optional. Only visible to staff members.'
+			'description' => 'Optional. Only visible to staff members.',
 		],
 		'action' => [
 			'ban' => [
@@ -36,11 +36,11 @@ return [
 					'title' => 'Duration',
 					'description' => '[0]|[1]The ban can be at most 1 day long.|[*,*] The ban can be at most {count} days long.',
 					'days' => 'day(s)',
-					'hours' => 'hour(s)'
+					'hours' => 'hour(s)',
 				],
 				'forums' => [
 					'title' => 'Forums',
-					'description' => 'Will be read-only'
+					'description' => 'Will be read-only',
 				],
 				'filebin' => 'File Bin',
 				'edit_profile' => 'Edit Profile',
@@ -49,8 +49,8 @@ return [
 					'options' => [
 						'none' => 'Do not disable',
 						'non-staff' => 'Disable sending to non-staff',
-						'all' => 'Disable sending entirely'
-					]
+						'all' => 'Disable sending entirely',
+					],
 				],
 				'section_submit' => 'Submit files (sections)',
 				'section_comment' => 'Post comments (sections)',
@@ -58,18 +58,18 @@ return [
 				'addresses' => 'Submit memory addresses',
 				'vote' => [
 					'title' => 'Voting',
-					'description' => 'C3 and Mosts'
-				]
+					'description' => 'C3 and Mosts',
+				],
 			],
 			'forumBan' => [
 				'title' => 'Forum',
 				'description' => 'An infraction can only disable access to a single forum.',
-				'choose' => 'Choose'
+				'choose' => 'Choose',
 			],
 			'sectionBan' => [
 				'title' => 'Sections',
 				'all' => 'Ban from all?',
-				'sections' => 'Sections'
+				'sections' => 'Sections',
 			],
 			'nuke' => [
 				'nuke' => 'Nuke fields',
@@ -80,35 +80,35 @@ return [
 				'location' => 'Location',
 				'email' => [
 					'title' => 'Email',
-					'description' => 'Will be made visible to admins only, not nuked.'
+					'description' => 'Will be made visible to admins only, not nuked.',
 				],
 				'discord_tag' => 'Discord tag',
 				'contact' => 'Other contact details',
 				'bio' => 'Bio',
-				'layout' => 'Layout'
+				'layout' => 'Layout',
 			],
 			'disable' => [
 				'disable' => 'Disable',
 				'ipban' => 'Apply IP ban?',
 				'ip' => [
 					'title' => 'IP address',
-					'description' => 'Defaults to the user\'s last IP.'
+					'description' => 'Defaults to the user\'s last IP.',
 				],
 				'level' => [
 					'title' => 'Level',
 					'options' => [
 						'register' => '1 - Unable to register',
 						'login' => '2 - Unable to login',
-						'access' => '3 - Unable to access site'
-					]
+						'access' => '3 - Unable to access site',
+					],
 				],
-				'reason' => 'Reason'
-			]
+				'reason' => 'Reason',
+			],
 		],
 		'submit' => 'Continue',
 		'action_forum' => [
-			'not_found' => 'Forum not found.'
-		]
+			'not_found' => 'Forum not found.',
+		],
 	],
 	'review' => [
 		'line_1' => 'You are about to issue the following infraction to {username}. An entry will be added to the user\'s record and they will be redirected to the infraction the next time they visit the site.',
@@ -116,7 +116,7 @@ return [
 		'line_2' => 'Is all information correct? You will not be able to edit the infraction after issuing it.',
 		'notice' => [
 			'line_1' => 'You are about to send the following notice to {username}. The user will be redirected to the notice the next time they visit the site.',
-			'line_2' => 'Is all information correct? You will not be able to edit the notice after sending it.'
+			'line_2' => 'Is all information correct? You will not be able to edit the notice after sending it.',
 		],
 		'field' => [
 			'user' => 'User:',
@@ -125,25 +125,25 @@ return [
 			'message' => 'Message:',
 			'notes' => 'Notes:',
 			'date' => 'Date:',
-			'issuer' => 'Issuer:'
+			'issuer' => 'Issuer:',
 		],
 		'action' => [
 			'confirm' => 'Confirm',
-			'back' => 'Back'
+			'back' => 'Back',
 		],
-		'empty' => '{italic}N/A{/italic}'
+		'empty' => '{italic}N/A{/italic}',
 	],
 	'new_tab' => 'Opens in a new tab',
 	'user_not_found' => [
 		'title' => 'Error',
-		'message' => 'The specified user does not exist.'
+		'message' => 'The specified user does not exist.',
 	],
 	'invalid_action' => [
 		'title' => 'Error',
-		'message' => 'Invalid punishment type.'
+		'message' => 'Invalid punishment type.',
 	],
 	'success' => [
 		'title' => 'Success',
-		'message' => 'Infraction issued.'
-	]
+		'message' => 'Infraction issued.',
+	],
 ];

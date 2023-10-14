@@ -7,10 +7,10 @@ return [
 	'cancel' => 'Annuler',
 	'not_found' => [
 		'title' => 'Erreur',
-		'message' => 'Commentaire non trouvé.'
+		'message' => 'Commentaire non trouvé.',
 	],
 	'success' => [
 		'title' => 'Succès',
-		'message' => 'Le commentaire a été supprimé.'
-	]
+		'message' => 'Le commentaire a été supprimé.',
+	],
 ];

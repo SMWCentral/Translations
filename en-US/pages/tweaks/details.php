@@ -4,7 +4,7 @@ return [
 	'title' => '{Tweak} - {game} Tweaks',
 	'breadcrumbs' => [
 		'moderated' => '{link}{game} Tweaks{/link} → {tweak}', // U+2192 (RIGHTWARDS ARROW)
-		'waiting' => '{link}Waiting {game} Tweaks{/link} → {tweak}' // U+2192 (RIGHTWARDS ARROW)
+		'waiting' => '{link}Waiting {game} Tweaks{/link} → {tweak}', // U+2192 (RIGHTWARDS ARROW)
 	],
 	'action' => [
 		'submit_update' => 'Submit Update',
@@ -12,7 +12,7 @@ return [
 		'delete' => 'Delete',
 		'approve' => 'Approve',
 		'reject' => 'Reject',
-		'link' => 'Link'
+		'link' => 'Link',
 	],
 	'details' => 'Tweak Details',
 	'field' => [
@@ -25,7 +25,7 @@ return [
 		'submission_notes' => 'Submission Notes:',
 		'submitted' => [
 			'name' => 'Submitted:',
-			'content' => '{date} by {user}'
-		]
-	]
+			'content' => '{date} by {user}',
+		],
+	],
 ];

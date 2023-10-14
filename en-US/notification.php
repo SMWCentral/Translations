@@ -32,7 +32,7 @@ return [
 	'post' => [
 		'title' => 'New post in a thread you\'re watching!',
 		'known' => '{username} replied to {stats}{link}{title}{/link}{/stats}. There may be more new posts after this one.',
-		'restricted' => '{username} replied to a restricted thread which you are watching.'
+		'restricted' => '{username} replied to a restricted thread which you are watching.',
 	],
 	'tweakApproved' => [
 		'title' => 'Your tweak has been approved!',

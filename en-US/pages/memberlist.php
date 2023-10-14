@@ -9,7 +9,7 @@ return [
 		'username_ip' => 'Username/IP:',
 		'inactive' => 'Show inactive users',
 		'ip' => 'Search by last IP',
-		'submit' => 'Filter'
+		'submit' => 'Filter',
 	],
 	'list' => [
 		'number' => '#',
@@ -18,6 +18,6 @@ return [
 		'posts' => 'Posts',
 		'ip' => 'Last IP',
 		'reveal' => 'Reveal',
-		'empty' => 'No members found.'
-	]
+		'empty' => 'No members found.',
+	],
 ];

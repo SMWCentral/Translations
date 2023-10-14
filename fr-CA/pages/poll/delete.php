@@ -7,10 +7,10 @@ return [
 	'cancel' => 'Annuler',
 	'success' => [
 		'title' => 'Succès',
-		'message' => 'Le sondage a été supprimé avec succès.'
+		'message' => 'Le sondage a été supprimé avec succès.',
 	],
 	'not_found' => [
 		'title' => 'Erreur',
-		'message' => 'Le sondage précisé n\'existe pas, ou vous n\'avez pas la permission de le supprimer.'
-	]
+		'message' => 'Le sondage précisé n\'existe pas, ou vous n\'avez pas la permission de le supprimer.',
+	],
 ];

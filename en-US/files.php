@@ -4,7 +4,7 @@ return [
 	'type' => [
 		'blank' => 'File',
 		'extension' => '{EXTENSION} file',
-		'folder' => 'Folder'
+		'folder' => 'Folder',
 	],
 	'filter' => [
 		'titled_rom' => 'a {game} ROM',
@@ -18,7 +18,7 @@ return [
 		'big_zip' => 'a large ZIP archive',
 		'encrypted_zip' => 'an encrypted ZIP archive',
 		'zip_contents' => "an archive containing:\n{contents}",
-		'zip_file' => '• {filename}: {result}' // U+2022 (BULLET)
+		'zip_file' => '• {filename}: {result}', // U+2022 (BULLET)
 	],
 	'upload' => [
 		'filter' => 'You\'re not allowed to upload this file because it is {reason}.',
@@ -27,6 +27,6 @@ return [
 		'bin_size' => 'Size limit exceeded.',
 		'partial' => 'The file was partially uploaded.',
 		'no_file' => 'You must upload a file.',
-		'internal' => 'The file couldn\'t be uploaded.'
-	]
+		'internal' => 'The file couldn\'t be uploaded.',
+	],
 ];

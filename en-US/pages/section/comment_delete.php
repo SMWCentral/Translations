@@ -7,10 +7,10 @@ return [
 	'cancel' => 'Cancel',
 	'not_found' => [
 		'title' => 'Error',
-		'message' => 'Comment not found.'
+		'message' => 'Comment not found.',
 	],
 	'success' => [
 		'title' => 'Success',
-		'message' => 'Comment deleted.'
-	]
+		'message' => 'Comment deleted.',
+	],
 ];

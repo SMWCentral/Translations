@@ -1,5 +1,5 @@
 <?php
 
 return [
-	'title' => 'Guide pour débutants'
+	'title' => 'Guide pour débutants',
 ];

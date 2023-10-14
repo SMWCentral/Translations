@@ -2,6 +2,6 @@
 
 return [
 	'game' => [
-		'smw' => 'SMW'
-	]
+		'smw' => 'SMW',
+	],
 ];

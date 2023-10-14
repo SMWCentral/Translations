@@ -4,7 +4,7 @@ return [
 	'title' => '{title} - {forum}',
 	'age_gate' => [
 		'nsfw' => 'Este tópico contém conteúdo inadequado para menores de idade.',
-		'time' => 'Este tópico tem {months} meses de idade. Ele pode não ter sido moderado adequadamente de acordo com nossos padrões atuais e pode conter conteúdo impróprio para menores de idade.'
+		'time' => 'Este tópico tem {months} meses de idade. Ele pode não ter sido moderado adequadamente de acordo com nossos padrões atuais e pode conter conteúdo impróprio para menores de idade.',
 	],
 	'forum_index' => 'Índice do Fórum',
 	'actions' => [
@@ -18,7 +18,7 @@ return [
 		'close' => 'Fechar Tópico',
 		'open' => 'Abrir Tópico',
 		'trash' => 'Descartar Tópico',
-		'link' => 'Link'
+		'link' => 'Link',
 	],
 	'poll' => [
 		'show_results' => 'Mostrar Resultados',
@@ -34,20 +34,20 @@ return [
 		'change_vote' => 'Mudar voto',
 		'closed' => 'Enquete fechada em {time}.',
 		'thread_closed' => 'Tópico fechado.',
-		'cannot_vote' => 'Não pode votar.'
+		'cannot_vote' => 'Não pode votar.',
 	],
 	'quick_reply' => [
 		'title' => 'Resposta Rápida',
 		'text' => 'Postar conteúdo',
 		'submit' => 'Submeter resposta',
-		'full' => 'Ir para editor completo'
+		'full' => 'Ir para editor completo',
 	],
 	'thread_not_found' => [
 		'title' => 'Erro',
-		'message' => 'O tópico solicitado não existe ou você não possui permissão para vê-lo.'
+		'message' => 'O tópico solicitado não existe ou você não possui permissão para vê-lo.',
 	],
 	'post_not_found' => [
 		'title' => 'Erro',
-		'message' => 'A postagem solicitada não existe ou você não possui permissão para vê-la.'
-	]
+		'message' => 'A postagem solicitada não existe ou você não possui permissão para vê-la.',
+	],
 ];

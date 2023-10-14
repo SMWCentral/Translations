@@ -19,29 +19,29 @@ return [
 		'yipatches' => 'Patchs YI',
 		'uberasm' => 'Répertoire d\'UberASM',
 		'yimusic' => 'Musique YI',
-		'spasm' => 'Répertoire de SPASM'
+		'spasm' => 'Répertoire de SPASM',
 	],
 	'field' => [
 		'common' => [
 			'name' => 'nom',
 			'author' => [
 				'name' => 'auteur',
-				'description' => 'Jusqu\'à 5, séparés par des virgules.'
+				'description' => 'Jusqu\'à 5, séparés par des virgules.',
 			],
 			'tags' => [
 				'name' => 'étiquettes',
-				'description' => 'Jusqu\'à 5, séparés par des virgules. Préfixez des étiquettes avec + pour n\'inclure que les combinaisons (+space,+planet). Préfixez une étiquette avec - pour l\'exclure (-planet).'
-			]
+				'description' => 'Jusqu\'à 5, séparés par des virgules. Préfixez des étiquettes avec + pour n\'inclure que les combinaisons (+space,+planet). Préfixez une étiquette avec - pour l\'exclure (-planet).',
+			],
 		],
 		'smwhacks' => [
 			'demo' => 'Démo',
 			'featured' => [
 				'name' => 'En vedette',
-				'description' => 'N\'afficher que les hacks qui sont en vedettes ou pas.'
+				'description' => 'N\'afficher que les hacks qui sont en vedettes ou pas.',
 			],
 			'length' => [
 				'name' => 'Longueur',
-				'description' => 'Nombres de sorties de niveau dans le hack.'
+				'description' => 'Nombres de sorties de niveau dans le hack.',
 			],
 			'difficulty' => [
 				'name' => 'Type',
@@ -53,12 +53,12 @@ return [
 					'kaizo_beginner' => 'Kaizo: Débutant',
 					'kaizo_light' => 'Kaizo: Intermédiaire',
 					'kaizo_expert' => 'Kaizo: Expert',
-					'kaizo_hard' => 'Avec outils: Kaizo', //not sure if outils is the right word, or if it should just be TAS: Kaizo
+					'kaizo_hard' => 'Avec outils: Kaizo', // not sure if outils is the right word, or if it should just be TAS: Kaizo
 					'pit' => 'Avec outils: Pit',
 					'troll' => 'Divers: Troll',
-				]
+				],
 			],
-			'description' => 'Description'
+			'description' => 'Description',
 		],
 		'sm64hacks' => [
 			'difficulty' => [
@@ -67,16 +67,16 @@ return [
 					'easy' => 'Facile',
 					'intermediate' => 'Intermédiaire',
 					'hard' => 'Difficile',
-					'kaizo' => 'Kaizo'
-				]
+					'kaizo' => 'Kaizo',
+				],
 			],
 			'demo' => 'Démo',
 			'length' => [
 				'name' => 'Longueur',
-				'description' => 'Nombre d\'étoiles dans le hack.'
+				'description' => 'Nombre d\'étoiles dans le hack.',
 			],
 			'description' => 'Description',
-			'video' => 'Lien vidéo'
+			'video' => 'Lien vidéo',
 		],
 		'sm64music' => [
 			'nlist' => [
@@ -119,24 +119,24 @@ return [
 					'nlst_34' => 'NLST 34 (Bataille de Bob-omb)',
 					'nlst_35' => 'NLST 35 (Fin)',
 					'nlst_36' => 'NLST 36 (Choix de fichier)',
-					'nlst_37' => 'NLST 37 (Générique)'
-				]
+					'nlst_37' => 'NLST 37 (Générique)',
+				],
 			],
-			'description' => 'Description'
+			'description' => 'Description',
 		],
 		'sm64textures' => [
 			'type' => [
 				'name' => 'Type',
 				'options' => [
 					'original' => 'Original',
-					'ripped' => 'Rippés'	// Is an anglicism, but I can't think of a better equivalent / Est un anglicisme, mais je n'arrive pas à penser à une meilleur traduction. "Extraits", peut-être?
-				]
+					'ripped' => 'Rippés',	// Is an anglicism, but I can't think of a better equivalent / Est un anglicisme, mais je n'arrive pas à penser à une meilleur traduction. "Extraits", peut-être?
+				],
 			],
 			'amount' => [
 				'name' => 'Nb. de textures',
-				'description' => 'Nombre de textures dans le paquet.'
+				'description' => 'Nombre de textures dans le paquet.',
 			],
-			'description' => 'Description'
+			'description' => 'Description',
 		],
 		'smwsprites' => [
 			'tool' => [
@@ -147,50 +147,50 @@ return [
 					'giepy' => 'GIEPY',
 					'romis_spritetool' => 'Spritetool de Romi',
 					'overworld_spritetool' => 'Spritetool pour Overworld',
-					'other' => 'Autre'
-				]
+					'other' => 'Autre',
+				],
 			],
 			'type' => [
 				'name' => 'Type',
 				'description' => 'De quel sorte de sprite s\'agit-il?',
 				'options' => [
-					'standard' => 'Standard',	//J'ai inclus les traductions anglaises puisque la terminologie anglaise est souvent utilisée / I included the English translations as well because the English terminology is often used
+					'standard' => 'Standard',	// J'ai inclus les traductions anglaises puisque la terminologie anglaise est souvent utilisée / I included the English translations as well because the English terminology is often used
 					'shooter' => 'Tireur (Shooter)',
 					'generator' => 'Générateur (Generator)',
 					'overworld' => 'Overworld',
 					'cluster' => 'Amas (Cluster)',
 					'extended' => 'Étendu (Extended)',
 					'run-once' => 'Exécution unique (Run-Once)',
-					'other' => 'Autre'
-				]
+					'other' => 'Autre',
+				],
 			],
 			'dynamic' => [
 				'name' => 'Dynamique',
 				'list' => 'Dyn.',
-				'description' => 'Est-ce un sprite dynamique?'
+				'description' => 'Est-ce un sprite dynamique?',
 			],
 			'disassembly' => [
 				'name' => 'Démontage',
 				'list' => 'Dém.',
-				'description' => 'Est-ce un démontage de sprite?'
+				'description' => 'Est-ce un démontage de sprite?',
 			],
 			'includesgfx' => [
 				'name' => 'Graphismes Inclus',
 				'list' => 'GFX',
-				'description' => 'Où possible, est-ce que cette soumission vient avec des graphismes?'
+				'description' => 'Où possible, est-ce que cette soumission vient avec des graphismes?',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'La description devrait contenir des détails comme des notes d\'utilisation, une liste de mises à jour, des bogues connus, si les blocs nécessaires à l\'utilisation sont inclus ou des idées pour l\'avenir. '
-			]
+				'description' => 'La description devrait contenir des détails comme des notes d\'utilisation, une liste de mises à jour, des bogues connus, si les blocs nécessaires à l\'utilisation sont inclus ou des idées pour l\'avenir. ',
+			],
 		],
 		'smwgraphics' => [
 			'type' => [
 				'name' => 'Type',
 				'options' => [
 					'original' => 'Original',
-					'ripped' => 'Rippés'
-				]
+					'ripped' => 'Rippés',
+				],
 			],
 			'purpose' => [
 				'name' => 'Fonction',
@@ -203,11 +203,11 @@ return [
 					'overworld' => 'Overworld',
 					'font' => 'Police',
 					'miscellaneous' => 'Divers',
-					'graphics_hack' => 'Hack de graphismes'
-				]
+					'graphics_hack' => 'Hack de graphismes',
+				],
 			],
 			'slots' => [
-				'name' => 'Champs utilisés', //no idea how to translate "slot" in this case, I don't think there really is a direct equivalent
+				'name' => 'Champs utilisés', // no idea how to translate "slot" in this case, I don't think there really is a direct equivalent
 				'list' => 'Champs',
 				'options' => [
 					'bg1' => 'BG1',
@@ -227,8 +227,8 @@ return [
 					'lg2' => 'LG2',
 					'lg3' => 'LG3',
 					'lg4' => 'LG4',
-					'an2' => 'AN2'
-				]
+					'an2' => 'AN2',
+				],
 			],
 			'palettes' => [
 				'name' => 'Rangs de palette utilisés',
@@ -248,34 +248,34 @@ return [
 					'pC' => 'C',
 					'pD' => 'D',
 					'pE' => 'E',
-					'pF' => 'F'
-				]
+					'pF' => 'F',
+				],
 			],
-			'description' => 'Description'
+			'description' => 'Description',
 		],
 		'yihacks' => [
 			'demo' => 'Démo',
 			'length' => [
 				'name' => 'Longueur',
-				'description' => 'Nombre de niveaux dans le hack.'
+				'description' => 'Nombre de niveaux dans le hack.',
 			],
-			'description' => 'Description'
+			'description' => 'Description',
 		],
 		'smwblocks' => [
 			'actas' => [
 				'name' => 'Comportement',
 				'list' => 'Comp.',
-				'description' => 'Ce bloc devrait se comporter comme quelle tuile?'	//est-ce que ça se dit "tuile" lol?
+				'description' => 'Ce bloc devrait se comporter comme quelle tuile?',	// est-ce que ça se dit "tuile" lol?
 			],
 			'includesgfx' => [
 				'name' => 'Graphismes Inclus',
 				'list' => 'GFX',
-				'description' => 'Où possible, est-ce que cette soumission vient avec des graphismes?'
+				'description' => 'Où possible, est-ce que cette soumission vient avec des graphismes?',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Pour votre bloc, tapez une description qui sera vue sur la page du fichier. Incluez des détails tels que des notes d\'utilisation, une liste de mises à jours, des bogues connus, si les patchs ou sprites nécessaires à l\'utilisation sont compris ou des idées pour l\'avenir.'
-			]
+				'description' => 'Pour votre bloc, tapez une description qui sera vue sur la page du fichier. Incluez des détails tels que des notes d\'utilisation, une liste de mises à jours, des bogues connus, si les patchs ou sprites nécessaires à l\'utilisation sont compris ou des idées pour l\'avenir.',
+			],
 		],
 		'smwpatches' => [
 			'tool' => [
@@ -284,18 +284,18 @@ return [
 				'options' => [
 					'xkas' => 'xkas',
 					'asar' => 'Asar',
-					'both' => 'xkas ou Asar'
-				]
+					'both' => 'xkas ou Asar',
+				],
 			],
 			'freespace' => [
 				'name' => 'Espace Libre Requis',
 				'list' => 'Esp. Lib.',
-				'description' => 'Est-ce que ce patch nécessite de l\'espace libre?'
+				'description' => 'Est-ce que ce patch nécessite de l\'espace libre?',
 			],
 			'bugfix' => [
 				'name' => 'Correction de bogues',
 				'list' => 'Corr.',
-				'description' => 'Est-ce que ce patch corrige des bogues présentes dans la version originale de Super Mario World?'
+				'description' => 'Est-ce que ce patch corrige des bogues présentes dans la version originale de Super Mario World?',
 			],
 			'featured' => [
 				'name' => 'En vedette',
@@ -303,13 +303,13 @@ return [
 				'options' => [
 					'no' => 'Non',
 					'yes' => 'Oui',
-					'essential' => 'Essentiel'
-				]
+					'essential' => 'Essentiel',
+				],
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Pour votre patch, tapez une description complète qui sera vue en entier sur la page de détails. Incluez des détails tels que des notes d\'utilisation, une liste de mises à jours, des bogues connus, des idées pour l\'avenir et/ou une liste de hijacks, l\'espace libre et l\'utilisation du RAM.'
-			]
+				'description' => 'Pour votre patch, tapez une description complète qui sera vue en entier sur la page de détails. Incluez des détails tels que des notes d\'utilisation, une liste de mises à jours, des bogues connus, des idées pour l\'avenir et/ou une liste de hijacks, l\'espace libre et l\'utilisation du RAM.',
+			],
 		],
 		'tools' => [
 			'os' => [
@@ -320,8 +320,8 @@ return [
 					'windows' => 'Windows',
 					'mac_os' => 'Mac OS X',
 					'linux' => 'Linux',
-					'other' => 'Autre'
-				]
+					'other' => 'Autre',
+				],
 			],
 			'platforms' => [
 				'name' => 'Plate-formes',
@@ -329,8 +329,8 @@ return [
 				'options' => [
 					'general' => 'Général',
 					'snes' => 'SNES',
-					'n64' => 'N64'
-				]
+					'n64' => 'N64',
+				],
 			],
 			'games' => [
 				'name' => 'Jeux',
@@ -339,13 +339,13 @@ return [
 					'general' => 'Général',
 					'smw' => 'SMW',
 					'yi' => 'YI',
-					'sm64' => 'SM64'
-				]
+					'sm64' => 'SM64',
+				],
 			],
 			'source' => [
 				'name' => 'Source disponible',
 				'list' => 'Src.',
-				'description' => 'Est-ce que le code source de l\'outil est compris dans son archive ou disponible ailleurs?'
+				'description' => 'Est-ce que le code source de l\'outil est compris dans son archive ou disponible ailleurs?',
 			],
 			'featured' => [
 				'name' => 'En vedette',
@@ -353,14 +353,14 @@ return [
 				'options' => [
 					'no' => 'Non',
 					'yes' => 'Oui',
-					'essential' => 'Essentiel'
-				]
+					'essential' => 'Essentiel',
+				],
 			],
 			'website' => 'Site web',
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Pour votre outil, tapez une description complète qui sera vue en entier sur la page de détails. Incluez des détails tels que des notes d\'utilisation, une liste de mises à jours, des bogues connus ou des idées pour l\'avenir.'
-			]
+				'description' => 'Pour votre outil, tapez une description complète qui sera vue en entier sur la page de détails. Incluez des détails tels que des notes d\'utilisation, une liste de mises à jours, des bogues connus ou des idées pour l\'avenir.',
+			],
 		],
 		'documents' => [
 			'platforms' => [
@@ -369,8 +369,8 @@ return [
 				'options' => [
 					'general' => 'Général',
 					'snes' => 'SNES',
-					'n64' => 'N64'
-				]
+					'n64' => 'N64',
+				],
 			],
 			'games' => [
 				'name' => 'Games',
@@ -379,16 +379,16 @@ return [
 					'general' => 'Général',
 					'smw' => 'SMW',
 					'yi' => 'YI',
-					'sm64' => 'SM64'
-				]
+					'sm64' => 'SM64',
+				],
 			],
 			'type' => [
 				'name' => 'Type',
 				'description' => 'Est-ce que cette soumission joue le rôle de documentation ou s\'agit-t-il d\'un tutoriel?',
 				'options' => [
 					'documentation' => 'Documentation',
-					'tutorial' => 'Tutoriel'
-				]
+					'tutorial' => 'Tutoriel',
+				],
 			],
 			'language' => [
 				'name' => 'Langue',
@@ -401,18 +401,18 @@ return [
 					'french' => 'Français',
 					'german' => 'Allemand',
 					'italian' => 'Italien',
-					'other' => 'Autre'
-				]
+					'other' => 'Autre',
+				],
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Pour votre document, tapez une description complète qui sera vue en entier sur la page de détails. Incluez des détails tels qu\'une table des contenus, une liste de mises à jours ou des idées pour l\'avenir.'
-			]
+				'description' => 'Pour votre document, tapez une description complète qui sera vue en entier sur la page de détails. Incluez des détails tels qu\'une table des contenus, une liste de mises à jours ou des idées pour l\'avenir.',
+			],
 		],
 		'smwmusic' => [
 			'size' => [
 				'name' => 'Taille d\'insertion',
-				'description' => 'Taille d\'insertion du morceau de musique en hexadécimal. Obligatoire seulement pour des soumissions de type « Chanson » et « Divers »; sinon, laissez la case vide. N\'écrivez pas le « 0x » lorsque vous saisissez la taille d\'insertion, car le site l\'ajoute automatiquement.'
+				'description' => 'Taille d\'insertion du morceau de musique en hexadécimal. Obligatoire seulement pour des soumissions de type « Chanson » et « Divers »; sinon, laissez la case vide. N\'écrivez pas le « 0x » lorsque vous saisissez la taille d\'insertion, car le site l\'ajoute automatiquement.',
 			],
 			'type' => [
 				'name' => 'Type',
@@ -421,8 +421,8 @@ return [
 					'song' => 'Chanson',
 					'soundtrack' => 'Bande-son',
 					'sound_effect' => 'Effet sonore',
-					'misc' => 'Divers'
-				]
+					'misc' => 'Divers',
+				],
 			],
 			'samples' => [
 				'name' => 'Utilisation d\'échantillons',
@@ -431,41 +431,41 @@ return [
 				'options' => [
 					'none' => 'Aucun',
 					'light' => 'Peu',
-					'many' => 'Beaucoup'
-				]
+					'many' => 'Beaucoup',
+				],
 			],
 			'source' => [
 				'name' => 'Source',
 				'description' => 'Est-ce que la soumission est une adaptation d\'une chanson qui existe, un remix d\'une chanson qui existe ou une composition originale? Si la soumission est de type « Bande-son », privilégiez la majorité des chansons lorsque vous choisissez la classification.',
 				'options' => [
-					'port' => 'Adapation',		//pas nécessairement le meilleur mot, mais bon
+					'port' => 'Adapation',		// pas nécessairement le meilleur mot, mais bon
 					'remix' => 'Remix',
-					'original' => 'Originale'
-				]
+					'original' => 'Originale',
+				],
 			],
 			'duration' => [
 				'name' => 'Durée',
-				'description' => 'Durée d\'une boucle du morceau de musique. Obligatoire seulement pour des soumissions de type « Chanson » et « Divers ». Sinon, laissez la case vide.'
+				'description' => 'Durée d\'une boucle du morceau de musique. Obligatoire seulement pour des soumissions de type « Chanson » et « Divers ». Sinon, laissez la case vide.',
 			],
 			'featured' => [
 				'name' => 'En vedette',
-				'description' => 'Adaptations ou compositions musicales qui se distinguent des autres.'
+				'description' => 'Adaptations ou compositions musicales qui se distinguent des autres.',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Pour votre chanson, tapez une description qui sera vue sur la liste principale des fichiers. Incluez des détails comme des utilisations possibles ou des thèmes auxquels la chanson pourrait adhérer, ainsi que toute information nécessaire qui devrait être connue à propos de la soumission.'
-			]
+				'description' => 'Pour votre chanson, tapez une description qui sera vue sur la liste principale des fichiers. Incluez des détails comme des utilisations possibles ou des thèmes auxquels la chanson pourrait adhérer, ainsi que toute information nécessaire qui devrait être connue à propos de la soumission.',
+			],
 		],
 		'sramdatabase' => [
 			'hid' => [
 				'name' => 'Lien du hack',
 				'list' => 'Hack',
-				'description' => 'Ce champ devrait contenir un lien vers le hack auquel le SRAM se rattache.'
+				'description' => 'Ce champ devrait contenir un lien vers le hack auquel le SRAM se rattache.',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Notez sur quel niveau la sauvegarde du SRAM se retrouve.'
-			]
+				'description' => 'Notez sur quel niveau la sauvegarde du SRAM se retrouve.',
+			],
 		],
 		'brrsamples' => [
 			'collection' => [
@@ -473,37 +473,37 @@ return [
 				'description' => 'Est-ce que la soumission est un seul échantillon ou une collection d\échantillons?',
 				'options' => [
 					'compilation' => 'Collection',
-					'single' => 'Singulier'
-				]
+					'single' => 'Singulier',
+				],
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Décrivez votre soumission.'
-			]
+				'description' => 'Décrivez votre soumission.',
+			],
 		],
 		'yipatches' => [
 			'freespace' => [
 				'name' => 'Nécessite de l\'espace libre',
 				'list' => 'FS',
-				'description' => 'Est-ce que ce patch nécessite de l\'espace libre (freespace)?'
+				'description' => 'Est-ce que ce patch nécessite de l\'espace libre (freespace)?',
 			],
 			'bugfix' => [
 				'name' => 'Correction de bogues',
 				'list' => 'Corr.',
-				'description' => 'Est-ce que ce patch corrige des bogues présentes dans la version originale de Yoshi\'s Island?'
+				'description' => 'Est-ce que ce patch corrige des bogues présentes dans la version originale de Yoshi\'s Island?',
 			],
 			'featured' => [
 				'name' => 'En vedette',
 				'description' => 'S\'agit-il d\'un patch très reconnu ou utile qui devrait être mis en vedette?',
 				'options' => [
 					'no' => 'Non',
-					'yes' => 'Oui'
-				]
+					'yes' => 'Oui',
+				],
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Pour votre patch, tapez une description complète qui sera vue en entier sur la page de détails. Incluez des détails tels que des notes d\'utilisation, une liste de mises à jours, des bogues connus, des idées pour l\'avenir et/ou une liste de hijacks, de l\'espace libre et de l\'utilisation du RAM.'
-			]
+				'description' => 'Pour votre patch, tapez une description complète qui sera vue en entier sur la page de détails. Incluez des détails tels que des notes d\'utilisation, une liste de mises à jours, des bogues connus, des idées pour l\'avenir et/ou une liste de hijacks, de l\'espace libre et de l\'utilisation du RAM.',
+			],
 		],
 		'uberasm' => [
 			'type' => [
@@ -513,27 +513,27 @@ return [
 					'level' => 'Niveau',
 					'overworld' => 'Overworld',
 					'game_mode' => 'Mode de jeu',
-					'global' => 'Global'
-				]
+					'global' => 'Global',
+				],
 			],
 			'includesgfx' => [
 				'name' => 'Graphismes inclus',
 				'list' => 'GFX',
-				'description' => 'Où possible, est-ce que cette soumission vient avec des graphismes?'
+				'description' => 'Où possible, est-ce que cette soumission vient avec des graphismes?',
 			],
 			'includeshijack' => [
 				'name' => 'Hijack inclus',
 				'list' => 'Hijack',
-				'description' => 'Est-ce que le code contient des hijacks ou d\'autres modifications internes au ROM?'
+				'description' => 'Est-ce que le code contient des hijacks ou d\'autres modifications internes au ROM?',
 			],
 			'featured' => [
 				'name' => 'En vedette',
-				'description' => 'S\'agit-il de code très reconnu ou utile qui devrait être mis en vedette?'
+				'description' => 'S\'agit-il de code très reconnu ou utile qui devrait être mis en vedette?',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'La description devrait contenir des détails tels que des notes d\'utilisation, une liste de mises à jours, des bogues connus, si les blocs nécessaires à l\'utilisation sont incluses et des idées pour l\'avenir.'
-			]
+				'description' => 'La description devrait contenir des détails tels que des notes d\'utilisation, une liste de mises à jours, des bogues connus, si les blocs nécessaires à l\'utilisation sont incluses et des idées pour l\'avenir.',
+			],
 		],
 		'yimusic' => [
 			'type' => [
@@ -543,29 +543,29 @@ return [
 					'song' => 'Chanson',
 					'soundtrack' => 'Bande-son',
 					'sound_effect' => 'Effet sonore',
-					'misc' => 'Divers'
-				]
+					'misc' => 'Divers',
+				],
 			],
 			'custom' => [
 				'name' => 'Originale',
-				'description' => 'Est-ce que la soumission est une composition originale?'
+				'description' => 'Est-ce que la soumission est une composition originale?',
 			],
 			'sampled' => [
 				'name' => 'Échantillonnée',
-				'description' => 'Est-ce que la soumissions utilise des échantillons qui ne proviennent pas de YI?'
+				'description' => 'Est-ce que la soumissions utilise des échantillons qui ne proviennent pas de YI?',
 			],
 			'duration' => [
 				'name' => 'Durée',
-				'description' => 'Durée d\'une boucle du morceau de musique. Obligatoire seulement pour des soumissions de type « Chanson » et « Divers »; sinon, laissez la case vide.'
+				'description' => 'Durée d\'une boucle du morceau de musique. Obligatoire seulement pour des soumissions de type « Chanson » et « Divers »; sinon, laissez la case vide.',
 			],
 			'featured' => [
 				'name' => 'En vedette',
-				'description' => 'Adaptations ou compositions musicales qui se distinguent des autres.'
+				'description' => 'Adaptations ou compositions musicales qui se distinguent des autres.',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'Pour votre chanson, tapez une description qui sera vue sur la liste principale des fichiers. Incluez des détails comme des utilisations possibles ou des thèmes auxquels la chanson pourrait adhérer.'
-			]
+				'description' => 'Pour votre chanson, tapez une description qui sera vue sur la liste principale des fichiers. Incluez des détails comme des utilisations possibles ou des thèmes auxquels la chanson pourrait adhérer.',
+			],
 		],
 		'spasm' => [
 			'type' => [
@@ -573,29 +573,29 @@ return [
 				'description' => 'Quand est-ce que ce code est exécuté?',
 				'options' => [
 					'init' => 'Init',
-					'main' => 'Main'
-				]
+					'main' => 'Main',
+				],
 			],
 			'includeshijack' => [
 				'name' => 'Hijacks inclus',
 				'list' => 'Hijacks',
-				'description' => 'Est-ce que votre code contient des hijacks ou d\'autres modifications internes au ROM?'
+				'description' => 'Est-ce que votre code contient des hijacks ou d\'autres modifications internes au ROM?',
 			],
 			'featured' => [
 				'name' => 'En vedette',
-				'description' => 'S\'agit-il de code très reconnu ou utile qui devrait être mis en vedette?'
+				'description' => 'S\'agit-il de code très reconnu ou utile qui devrait être mis en vedette?',
 			],
 			'description' => [
 				'name' => 'Description',
-				'description' => 'La description devrait contenir des détails tels que des notes d\'utilisation, une liste de mises à jours, des bogues connus et des idées pour l\'avenir.'
-			]
-		]
+				'description' => 'La description devrait contenir des détails tels que des notes d\'utilisation, une liste de mises à jours, des bogues connus et des idées pour l\'avenir.',
+			],
+		],
 	],
 	'multiple' => '{description} Tenez la touche « Contrôle » pour en sélectionner plusieurs.',
 	'binary' => [
 		'any' => 'Tous',
 		'yes' => 'Oui',
-		'no' => 'Non'
+		'no' => 'Non',
 	],
 	'none' => 'Aucun',
 	'preview' => [
@@ -611,8 +611,8 @@ return [
 			'skip' => 'Sauter',
 			'title' => 'Nom de la chanson',
 			'volume' => 'Volume',
-			'move' => 'Déplacer le lecteur'
-		]
+			'move' => 'Déplacer le lecteur',
+		],
 	],
-	'preview_script' => 'Permettez l\'exécution de JavaScript pour pouvoir voir un aperçu des fichiers sans les télécharger.'
+	'preview_script' => 'Permettez l\'exécution de JavaScript pour pouvoir voir un aperçu des fichiers sans les télécharger.',
 ];

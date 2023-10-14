@@ -6,23 +6,23 @@ return [
 	'outdated' => 'Your browser is outdated. Online tools will not work.',
 	'count' => 'Hosting {stats}{count}{/stats} online tool.|Hosting {stats}{count}{/stats} online tools.', // U+2013 (EN DASH)
 	'menu' => [
-		'github' => 'Contribute on GitHub'
+		'github' => 'Contribute on GitHub',
 	],
 	'header' => [
 		'name' => 'Name',
 		'game' => 'Game',
 		'description' => 'Description',
-		'authors' => 'Authors'
+		'authors' => 'Authors',
 	],
 	'game' => [
 		'general' => 'General',
 		'smw' => 'SMW',
 		'yi' => 'YI',
-		'sm64' => 'SM64'
+		'sm64' => 'SM64',
 	],
 	'tool' => [
 		'breadcrumbs' => '{link}Online Tools{/link} → {tool}', // U+2192 (RIGHTWARDS ARROW)
 		'github' => 'View on GitHub',
-		'details' => 'Tool Details'
-	]
+		'details' => 'Tool Details',
+	],
 ];
